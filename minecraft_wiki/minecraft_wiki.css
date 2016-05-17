@@ -1,0 +1,30 @@
+html body {
+    background-color : black !important;
+    margin-top: 0px !important;
+}
+#global-wrapper {
+    margin-top: -29px !important;
+}
+.mw-body-content {
+    width: 100% !important;
+}
+.mw-body {
+    background-color : #101010 !important;
+    color: #FFFFFF !important;
+}
+.wikitable, .toc, table.wikitable, th, tr, .notaninfobox {
+    background-color : transparent !important;
+    color: #FFFFFF !important;
+}
+.atflb, .btflb, .zergnet_container, #siderail, #netbar {
+    display: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+}
+a:visited {
+    color: #FFCCFF !important;
+}
+a:link {
+    color: #CCCCFF !important;
+}
