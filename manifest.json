@@ -17,6 +17,10 @@
     {
       "matches" : ["http://minecraft.gamepedia.com/*"],
       "css" : ["minecraft_wiki/minecraft_wiki.css"]
+    },
+    {
+      "matches" : ["https://www.youtube.com/*"],
+      "css" : ["youtube/youtube.css"]
     }
   ]
 }

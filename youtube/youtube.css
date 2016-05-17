@@ -1,0 +1,65 @@
+html body {
+    background-color: black !important;
+    margin-top: 0px !important;
+}
+#page {
+  background-color: #303030 !important;
+}
+/* header */
+#yt-masthead-container, #masthead-search-term, #search-btn, #upload-btn {
+    background-color: black !important;
+    color: white !important;
+}
+table {
+    background-color: black !important;
+    color: white !important;
+}
+/* ad */
+.ad-container {
+    display: none;
+}
+/* video title box, description box, comments */
+#watch-header, #watch-header .yt-user-info a, #action-panel-details, #watch-description, .yt-card {
+    background-color: black !important;
+    color: white !important;
+}
+.yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt, h1, h2, h3, h4, h5, h6, .watch-view-count, .yt-uix-button-content {
+    color: white !important;
+}
+.yt-uix-button {
+    background-color: #606060 !important;
+}
+.watch-time-text, #eow-description {
+    color: white !important;
+}
+/* sidebar */
+#watch7-sidebar-contents {
+    background-color: black !important;
+    color: white !important;
+}
+.title {
+    color: white !important;
+}
+/* left bar */
+#guide-container {
+    background-color: black !important;
+    color: white !important;
+}
+.guide-item {
+    color: white !important;
+}
+/* nav on channel page */
+#appbar-nav {
+    background-color: black !important;
+    color: white !important;
+}
+/* links to other videos */
+.yt-uix-sessionlink {
+    background-color: black !important;
+    color: #CCCCFF !important;
+}
+/* footer on channel page */
+#footer, #footer-container {
+    background-color: black !important;
+    color: white !important;
+}
