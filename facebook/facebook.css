@@ -1,0 +1,158 @@
+html body {
+    background-color : #303030 !important;
+}
+#leftCol {
+    color : white !important;
+}
+#contentCol {
+    background-color : #303030 !important;
+}
+/* Header */
+div[role="search"] {
+    background-color : #000000 !important;
+}
+div[role="search"] form button {
+    background-color : #000000 !important;
+}
+.uiContextualLayer div {
+    background-color : black !important;
+    border-color : #404040 !important;
+}
+.uiContextualLayer > div {
+    border : 1px solid;
+}
+#facebar_typeahead_view_list li.selected {
+    background-color : #303030 !important;
+}
+/* Box on the right */
+#rightCol div div div div {
+    background-color : black !important;
+    border-color : #404040 !important;
+}
+/* Menu on the left */
+.fbxWelcomeBox a, .fbxWelcomeBoxSmall a,
+.navHeader, .sectionDragHandle, .subitem, ._bui .subitem, span, .imgWrap, .linkWrap
+#pinnedNav, #groupsNav {
+    color : #C0C0C0 !important;
+}
+.fbxWelcomeBoxRow:hover, .fbxWelcomeBoxSmallRow:hover, .sortableItem:hover, ._5afe:hover {
+    background-color : #404040 !important;
+}
+/* chat list */
+#u_0_s { /* right bar while loading */
+    background-color : black !important;
+    box-shadow : 1px 0 0 #101010 !important;
+    border-color : #404040 !important;
+}
+.fbChatSidebar {
+    background-color : black !important;
+    color : white !important;
+    border-left-color : #606060 !important;
+    box-shadow : 1px 0 0 #101010 !important;
+}
+._55ln {
+    color : white !important;
+    box-shadow: 1px 0 0 #101010 !important;
+}
+._55ln:focus, ._55ln:hover {
+    background-color : #404040 !important;
+    box-shadow : 1px 0 0 #101010 !important;
+}
+._55oc {
+    color : #DFDFDF !important;
+}
+.fbChatTypeahead { /* search box */
+    background-color : #202020 !important;
+    color : white !important;
+}
+.fbChatTypeahead label, .fbChatTypeahead input, .fbChatTypeahead span {
+    background-color : transparent !important;
+    color : white !important;
+}
+::-webkit-input-placeholder {
+    color : #DFDFDF !important;
+}
+/* chat window */
+.scrollable {
+    background-color : #303030 !important;
+    color : white !important;
+}
+.conversation {
+}
+/* feed ticker */
+.fwb {
+    color : #DFDFDF !important;
+}
+a.tickerStoryLink {
+    color : #CCCCCC !important;
+}
+.scrollable .uiScrollableAreaBody .uiScrollableAreaContent .ticker_stream .tickerActivityStories .fbFeedTickerStory:hover {
+    background-color : #404040 !important;
+    border-color : #606060 !important;
+    box-shadow : 1px 0 0 #101010 !important;
+}
+.scrollable .uiScrollableAreaBody .uiScrollableAreaContent .ticker_stream .tickerActivityStories .fbFeedTickerStory .fbFeedTickerBorder {
+    border-color : #404040 !important;
+}
+.fbSidebarGripper {
+    border-color : #606060 !important;
+}
+/* status box */
+.focus_target {
+    background-color : black !important;
+    border-color : #404040 !important;
+}
+.composerAudienceWrapper div div a {
+    background-color : #303030 !important;
+    background-image: none !important;
+    border-color : #404040 !important;
+}
+.composerAudienceWrapper div div a span {
+    text-shadow : 0 1px 0 #101010 !important;
+}
+#feedx_container div div {
+    border-color : #404040 !important;
+}
+/* fbpurity elements */
+#fbpurityinfobar {
+    background-color : transparent !important;
+    color : #707070 !important;
+}
+/* stream */
+.mbm, .mbl { /* mbm : a single card in the stream ; .mbl : "loading" banner */
+    background-color : #000000 !important;
+    color : #CFCFCF !important;
+    border-color : #404040 !important;
+}
+.mtm, .mtm div, .mbs a, .mbs div, .mtm .mtm p, .mbl div, .mbm div, .mbm div div {
+    background-image : none !important;
+    background-color : transparent !important;
+    color : #CFCFCF !important;
+    border-color : #404040 !important;
+}
+.userContentWrapper div span span button, .userContentWrapper div span span button i, .mtm button { /* "like page" button */
+    background-image : none !important;
+    background-color : #303030 !important;
+    border-color : #404040 !important;
+    color : #CCCCCC !important;
+    text-shadow : 0 1px 0 #101010 !important;
+}
+a[role="button"] {
+    background-color : transparent !important;
+}
+._ipp div a span, ._ipo {
+    background-color : black !important;
+    color : #CCCCCC !important;
+}
+.UFIList div, .UFIContainer, .UFIInputContainer div input {
+    background-color : black !important;
+    color : white !important;
+    border-color : #404040 !important;
+}
+.UFICommentAttachmentButtons div, .UFICommentAttachmentButtons a {
+    background-color : #303030 !important;
+    border-color : none !important;
+}
+._5mxv, form div {
+    border-color : #404040 !important;
+}

@@ -14,8 +14,12 @@ table {
     background-color: black !important;
     color: white !important;
 }
+/* sides of the video */
+#theater-background {
+    background-color: #303030 !important;
+}
 /* ad */
-.ad-container {
+.ad-container, .iv-promo {
     display: none;
 }
 /* video title box, description box, comments */
@@ -27,7 +31,7 @@ table {
     color: white !important;
 }
 .yt-uix-button {
-    background-color: #606060 !important;
+    background-color: #303030 !important;
 }
 .watch-time-text, #eow-description {
     color: white !important;
