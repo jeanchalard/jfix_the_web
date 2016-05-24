@@ -1,9 +1,12 @@
+* {
+    border-color : #404040 !important;
+}
 html body {
     background-color: black !important;
     margin-top: 0px !important;
 }
 #page {
-  background-color: #303030 !important;
+    background-color: #303030 !important;
 }
 /* header */
 #yt-masthead-container, #masthead-search-term, #search-btn, #upload-btn {
@@ -19,7 +22,7 @@ table {
     background-color: #303030 !important;
 }
 /* ad */
-.ad-container, .iv-promo {
+.adDisplay div, #adSense {
     display: none;
 }
 /* video title box, description box, comments */
@@ -29,9 +32,11 @@ table {
 }
 .yt-default h1, .yt-default h2, .yt-default h3, .yt-default h4, .yt-default h5, .yt-default h6, h1.yt, h2.yt, h3.yt, h4.yt, h5.yt, h6.yt, h1, h2, h3, h4, h5, h6, .watch-view-count, .yt-uix-button-content {
     color: white !important;
+    border-color : #404040 !important;
 }
 .yt-uix-button {
     background-color: #303030 !important;
+    border-color : #404040 !important;
 }
 .watch-time-text, #eow-description {
     color: white !important;

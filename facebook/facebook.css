@@ -1,11 +1,11 @@
 html body {
-    background-color : #303030 !important;
+    background-color : #272727 !important;
 }
 #leftCol {
     color : white !important;
 }
 #contentCol {
-    background-color : #303030 !important;
+    background-color : #272727 !important;
 }
 /* Header */
 div[role="search"] {
@@ -74,7 +74,7 @@ div[role="search"] form button {
 }
 /* chat window */
 .scrollable {
-    background-color : #303030 !important;
+    background-color : #black !important;
     color : white !important;
 }
 .conversation {

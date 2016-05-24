@@ -1,0 +1,7 @@
+#canalplus_header, #pmHeaderMain, #breadcrumb, .banner {
+    display : none !important;
+}
+html body, .vitrine_relance, #content, div#canalplus, #rightSection, .ob-first .ob-widget-items-container .ob-dynamic-rec-container {
+    background-color : black !important;
+    color : white !important;
+}

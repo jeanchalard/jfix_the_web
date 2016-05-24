@@ -19,6 +19,10 @@
       "css" : ["minecraft_wiki/minecraft_wiki.css"]
     },
     {
+      "matches" : ["http://www.canalplus.fr/*"],
+      "css" : ["canalplus/canalplus.css"]
+    },
+    {
       "matches" : ["https://www.facebook.com/*"],
       "css" : ["facebook/facebook.css"]
     },
@@ -28,3 +32,4 @@
     }
   ]
 }
+
