@@ -156,3 +156,28 @@ a[role="button"] {
 ._5mxv, form div {
     border-color : #404040 !important;
 }
+/* 3 popups top of screen */
+.uiHeader, .anchorContainer a, .uiScrollableAreaContent ul li, .seeMore, .toggleTargetClosed, #fbNotificationsFlyout, .messagesContent, .uiToggleFlyout {
+    background-color : #202020 !important;
+    border-color : #606060 !important;
+    color : white !important;
+    box-shadow : 1px 0 0 #101010 !important;
+}
+.uiHeaderTitle a, .uiHeaderTitle {
+    color : white !important;
+}
+.uiHeaderActions a {
+    color : #7F7FFF !important;
+}
+.jewelItemNew {
+    background-color : #404040 !important;
+    color : white !important;
+}
+/* Personal page feed */
+.fbTimelineCapsule {
+    background-color : #202020 !important;
+}
+.fbTimelineTwoColumn div, #profile_intro_card_bio div div div a {
+    background-color : black !important;
+    border-color : #606060 !important;
+}
