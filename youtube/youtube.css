@@ -22,7 +22,7 @@ table {
     background-color: #303030 !important;
 }
 /* ad */
-.adDisplay div, #adSense {
+.adDisplay div, #adSense, a.attribution-button {
     display: none;
 }
 /* video title box, description box, comments */
