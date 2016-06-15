@@ -1,7 +1,25 @@
 #canalplus_header, #pmHeaderMain, #breadcrumb, .banner {
     display : none !important;
 }
-html body, .vitrine_relance, #content, div#canalplus, #rightSection, .ob-first .ob-widget-items-container .ob-dynamic-rec-container {
+html body, .vitrine_relance, #content, div#canalplus, #rightSection, .ob-first .ob-widget-items-container li.ob-dynamic-rec-container, .subtxt, ul.features li p {
     background-color : black !important;
     color : white !important;
+    cursor : initial !important;
+    border-color : #404040 !important;
+}
+ul.features li h4 a, div#canalplus ul.thumbs li h4, h4.txt, span.ob-rec-text {
+    color : white !important;
+}
+ul.features li.redMea {
+    background-color : #505050 !important;
+    background-image : none !important;
+    color : white !important;
+}
+div#canalplus div#rightSection div ul.thumbs li,  {
+    background-color : #202020 !important;
+    background-image : none !important;
+    color : white !important;
+}
+div#mainSection div.comment-share-bar {
+    background-color : black !important;
 }

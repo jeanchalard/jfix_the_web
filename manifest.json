@@ -20,7 +20,8 @@
     },
     {
       "matches" : ["http://www.canalplus.fr/*"],
-      "css" : ["canalplus/canalplus.css"]
+      "css" : ["canalplus/canalplus.css"],
+      "js" : ["canalplus/canalplus.js"]
     },
     {
       "matches" : ["https://www.facebook.com/*"],
