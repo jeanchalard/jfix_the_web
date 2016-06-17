@@ -1,0 +1,26 @@
+html body, c-wiz > c-wiz + div, div[jsshadow] {
+    background-color: #202020 !important;
+    color: white !important;
+}
+div[role="menubar"] {
+    background-color: #303030 !important;
+    color: white !important;
+}
+c-wiz div[role="menubar"] div[data-initial-search-value] {
+    background-color: black !important;
+    color: white !important;
+}
+div[style*="position: absolute"] {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+c-wiz div {
+    color: white !important;
+}
+c-wiz div[style*="height"] {
+    background-color: #202020 !important;
+    color: white !important;
+}
+a[title="Google apps"], svg.JUQOtc, .gb_qc {
+    -webkit-filter: invert(100%);
+}

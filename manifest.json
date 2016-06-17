@@ -30,6 +30,10 @@
     {
       "matches" : ["https://www.youtube.com/*"],
       "css" : ["youtube/youtube.css"]
+    },
+    {
+      "matches" : ["https://photos.google.com/*"],
+      "css" : ["googlephotos/googlephotos.css"]
     }
   ]
 }
