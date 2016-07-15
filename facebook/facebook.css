@@ -17,6 +17,7 @@ div[role="search"] form button {
 .uiContextualLayer div {
     background-color : black !important;
     border-color : #404040 !important;
+    color : white !important;
 }
 .uiContextualLayer > div {
     border : 1px solid;
