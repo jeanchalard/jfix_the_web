@@ -34,7 +34,10 @@
     {
       "matches" : ["https://photos.google.com/*"],
       "css" : ["googlephotos/googlephotos.css"]
+    },
+    {
+      "matches" : ["https://www.google.co.jp/*"],
+      "css" : ["googlesearch/googlesearch.css"]
     }
   ]
 }
-

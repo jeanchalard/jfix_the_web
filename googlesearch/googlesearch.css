@@ -1,0 +1,92 @@
+/* General body fixes */
+html body, #hdtbSum, #slim_appbar, #topabar {
+    background-color : black !important;
+}
+a {
+    color : #CCCCFF !important;
+}
+.sfbgg, #fbar, .fbar {
+    background-color : #202020 !important;
+}
+
+
+/* Input bar at the top of the screen */
+.gsfi, .sbib_a, .sbib_b, #sb_ifc0 {
+    background-color : #202020 !important;
+    color : white !important;
+}
+#sfdiv {
+    background-color : #202020 !important;
+    border-color : #404040 !important;
+}
+/* Suggestions */
+.sbsb_a, .sbsb_b {
+    background-color : #202020 !important;
+    color : white !important;
+}
+.sbsb_d {
+    background-color : black !important;
+    color : white !important;
+}
+
+/* Icons at the top right */
+.gb_b, .gb_b span.gb_3a {
+    -webkit-filter : invert(100%);
+}
+.ab_ctl {
+    -webkit-filter : invert(100%);
+}
+
+/* App switcher */
+.gb_ja, .gb_ka {
+    background-color : #202020 !important;
+}
+.gb_4 {
+    background-color : black !important;
+}
+
+/* "More" menu and search tools */
+#hdtb-more-mn, #hdtbMenus, .hdtbU, .hdtbItm {
+    background-color : #202020 !important;
+    color : white !important;
+}
+#hdtb-tls {
+    background-image : -webkit-linear-gradient(top, rgb(17, 17, 17), rgb(31, 31, 31)) !important;
+}
+
+
+/* Body text colors */
+.st {
+    color : #CFCFCF !important;
+}
+cite {
+    color : #00BB42 !important;
+}
+
+/* Knowledge box */
+.kp-header, .kp-header div, ._G1d {
+    background-color : #202020 !important;
+    color : white !important;
+}
+.kno-ftr {
+    background-color : #101010 !important;
+}
+._xdb a.fl {
+    color : #CCCCFF !important;
+}
+.kp-blk {
+    box-shadow : 0px 1px 4px 0px rgba(255, 255, 255, 0.2) !important;
+}
+
+
+/* Image search */
+#cnt {
+    background-color : black !important;
+}
+#ifbc {
+    background-color : #202020 !important;
+}
+.rg_fbl, ._ucd {
+    background-color : black !important;
+    color : white !important;
+}
