@@ -1,0 +1,28 @@
+/* General body fixes */
+.widget-pane-content {
+    background-color : black !important;
+}
+#searchbox {
+    background-color : black !important;
+}
+#searchbox-hamburger, .suggest-icon-container, #searchbox-searchbutton {
+    -webkit-filter : invert(100%);
+}
+.suggest-query, .suggest-bold {
+    color : white !important;
+}
+.sbib_b::after {
+    -webkit-filter : invert(100%);
+}
+.suggest:hover {
+    background-color : black !important;
+}
+
+/* Directions */
+.widget-pane-section-directions-trip div, .widget-pane-section-directions-trip span, .widget-pane-section-directions-trip h1 {
+    color : white !important;
+}
+/* Travel mode icon in results */
+div[role="img"] {
+    -webkit-filter : invert(100%);
+}

@@ -54,7 +54,6 @@ a {
     background-image : -webkit-linear-gradient(top, rgb(17, 17, 17), rgb(31, 31, 31)) !important;
 }
 
-
 /* Body text colors */
 .st {
     color : #CFCFCF !important;
@@ -77,7 +76,6 @@ cite {
 .kp-blk {
     box-shadow : 0px 1px 4px 0px rgba(255, 255, 255, 0.2) !important;
 }
-
 
 /* Image search */
 #cnt {
