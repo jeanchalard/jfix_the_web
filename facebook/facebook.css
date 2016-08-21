@@ -45,11 +45,13 @@ div[role="search"] form button {
     box-shadow : 1px 0 0 #101010 !important;
     border-color : #404040 !important;
 }
-.fbChatSidebar {
+.fbChatSidebar, .fbChatTab, .fbNubButton, .fbNub {
     background-color : black !important;
     color : white !important;
-    border-left-color : #606060 !important;
+    border-color : #606060 !important;
+    outline-color : black !important;
     box-shadow : 1px 0 0 #101010 !important;
+    background-image : none !important;
 }
 ._55ln {
     color : white !important;
@@ -181,4 +183,37 @@ a[role="button"] {
 .fbTimelineTwoColumn div, #profile_intro_card_bio div div div a {
     background-color : black !important;
     border-color : #606060 !important;
+}
+
+/* Chat window */
+.titlebarText span {
+    color : white !important;
+}
+.fbNubFlyoutTitlebar {
+    background-color : #606060 !important;
+}
+.fbNubFlyoutFooter, .fbNubFlyoutBody {
+    background-color : black !important;
+    color : white !important;
+}
+/* Their chat balloon */
+._5w1r {
+    background-color : #202020 !important;
+}
+/* Our chat balloon */
+._d97 {
+    background-color : #303030 !important;
+}
+/* Scrollbars */
+::-webkit-scrollbar {
+    background-color : #101010 !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color : #404040 !important;
+}
+
+/* Photo comments */
+.photoUfiContainer div {
+    background-color : black !important;
+    color : white !important;
 }
