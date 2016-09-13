@@ -19,7 +19,9 @@
 }
 
 /* Directions */
-.widget-pane-section-directions-trip div, .widget-pane-section-directions-trip span, .widget-pane-section-directions-trip h1 {
+.widget-pane-section-directions-trip div, .widget-pane-section-directions-trip span, .widget-pane-section-directions-trip,
+.section-directions-trip div, .section-directions-trip span, .section-directions-trip,
+h1 {
     color : white !important;
 }
 /* Travel mode icon in results */
