@@ -1,6 +1,6 @@
 /* General body fixes */
 .widget-pane-content {
-    background-color : black !important;
+    background-color : #0F0F0F !important;
 }
 #searchbox {
     background-color : black !important;
@@ -22,6 +22,11 @@
 .widget-pane-section-directions-trip div, .widget-pane-section-directions-trip span, .widget-pane-section-directions-trip,
 .section-directions-trip div, .section-directions-trip span, .section-directions-trip,
 h1 {
+    color : white !important;
+}
+/* Left panel */
+.section-info-text, .widget-pane-link, .section-subheader-large-text, .section-facts, .section-hotel-price-summary, .section-line-group-summary, .section-line-group-summary-lines, .section-transit-station-footer, .section-quote, .section-event-date, .section-event-name,
+h2 {
     color : white !important;
 }
 /* Travel mode icon in results */
