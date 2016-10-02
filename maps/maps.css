@@ -25,9 +25,16 @@ h1 {
     color : white !important;
 }
 /* Left panel */
-.section-info-text, .widget-pane-link, .section-subheader-large-text, .section-facts, .section-hotel-price-summary, .section-line-group-summary, .section-line-group-summary-lines, .section-transit-station-footer, .section-quote, .section-event-date, .section-event-name,
+.section-info-text, .widget-pane-link, .section-subheader-large-text, .section-facts, .section-hotel-price-summary, .section-line-group-summary, .section-line-group-summary-lines, .section-transit-station-footer, .section-quote, .section-event-date, .section-event-name, .section-result-title, .section-result-hotel-price, .section-filters-filter-title, .section-hotel-prices-view-label, .section-hotel-prices-partner-nightly-rate-text, .wiget-pane-date-picker-label,
 h2 {
     color : white !important;
+}
+.widget-pane-content, #loading-pane-div, .loading-pane, .widget-pane, .widget-pane-content-disabled, .widget-pane-offscreen,
+.section-filters {
+    background-color : black !important;
+}
+.screen-mode .section-result:hover, .screen-mode .section-result:focus {
+    background-color : #303030 !important;
 }
 /* Travel mode icon in results */
 div[role="img"] {
