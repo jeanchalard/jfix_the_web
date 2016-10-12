@@ -4,6 +4,12 @@
   "version" : "1.0",
   "description" : "Fixes various sites",
   "content_scripts" : [
+/*
+    {
+      "matches" : ["http://news.exchristian.net/*"],
+      "css" : ["tmp.css"]
+    },
+*/
     {
       "matches" : ["http://www.sluggy.com/comics/*"],
       "css" : ["sluggy/sluggy.css"]
