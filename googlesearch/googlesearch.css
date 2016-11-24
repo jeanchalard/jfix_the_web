@@ -61,6 +61,9 @@ a {
 cite {
     color : #00BB42 !important;
 }
+.xpdopen {
+    color : #FFFFFF !important;
+}
 
 /* Knowledge box */
 .kp-header, .kp-header div, ._G1d {

@@ -29,7 +29,7 @@ h1 {
 h2 {
     color : white !important;
 }
-.widget-pane-content, #loading-pane-div, .loading-pane, .widget-pane, .widget-pane-content-disabled, .widget-pane-offscreen,
+#loading-pane-div, .loading-pane, .widget-pane, .widget-pane-content-disabled, .widget-pane-offscreen,
 .section-filters {
     background-color : black !important;
 }
