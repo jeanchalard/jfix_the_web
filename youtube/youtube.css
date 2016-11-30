@@ -74,5 +74,9 @@ table {
 }
 /* hide the "trending" and "purchases" shit */
 #trending-guide-item, #purchases-guide-item {
-    display : none;
+    display : none !important;
+}
+/* hide even the fucking sidebar and end video suggestions */
+.watch-sidebar-gutter, .ytp-videowall-still, .ytp-suggestion-set {
+    display : none !important;
 }
