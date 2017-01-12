@@ -48,6 +48,10 @@
     {
       "matches" : ["https://www.google.co.jp/maps/*"],
       "css" : ["maps/maps.css"]
+    },
+    {
+      "matches" : ["http://battlecats.spica-net.com/*"],
+      "css" : ["battlecats/battlecats.css"]
     }
   ]
 }

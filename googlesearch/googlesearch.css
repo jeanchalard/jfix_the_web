@@ -19,6 +19,23 @@ a {
     background-color : #202020 !important;
     border-color : #404040 !important;
 }
+
+/* Cards */
+g-inner-card, g-fab {
+    background-color : #202020 !important;
+    border-color : #404040 !important;
+    color : white !important;
+}
+._wD:hover {
+    background-color : #101010 !important;
+}
+._Adb, ._wD ._Xbe {
+    color : white !important;
+}
+div ._tX {
+    color : #AAAAFF !important;
+}
+
 /* Suggestions */
 .sbsb_a, .sbsb_b {
     background-color : #202020 !important;
@@ -61,9 +78,6 @@ a {
 cite {
     color : #00BB42 !important;
 }
-.xpdopen {
-    color : #FFFFFF !important;
-}
 
 /* Knowledge box */
 .kp-header, .kp-header div, ._G1d {
@@ -84,14 +98,19 @@ cite {
 #cnt {
     background-color : black !important;
 }
-#ifbc {
+.xpdopen {
     background-color : #202020 !important;
+    color : #FFFFFF !important;
+}
+#ifbc, #mod {
+    background-color : #202020 !important;
+    color : white !important;
 }
 .rg_fbl, ._ucd {
     background-color : black !important;
     color : white !important;
 }
 
-.lr_container span {
+.lr_container span, ._pk {
     color : white !important;
 }
