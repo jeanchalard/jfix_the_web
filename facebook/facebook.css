@@ -64,7 +64,7 @@ div[role="search"] form button {
 ._55oc {
     color : #DFDFDF !important;
 }
-.fbChatTypeahead { /* search box */
+.fbChatTypeahead, ._1frb { /* search box */
     background-color : #202020 !important;
     color : white !important;
 }
