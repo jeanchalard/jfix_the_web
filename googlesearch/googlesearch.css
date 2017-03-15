@@ -9,13 +9,12 @@ a {
     background-color : #202020 !important;
 }
 
-
 /* Input bar at the top of the screen */
 .gsfi, .sbib_a, .sbib_b, #sb_ifc0 {
     background-color : #202020 !important;
     color : white !important;
 }
-#sfdiv {
+#sfdiv, #ab_options {
     background-color : #202020 !important;
     border-color : #404040 !important;
 }
@@ -77,6 +76,10 @@ div ._tX {
 }
 cite {
     color : #00BB42 !important;
+}
+
+.jfk-radiobutton-label, .sectHdr, .checkbox-label {
+    color : white !important;
 }
 
 /* Knowledge box */
