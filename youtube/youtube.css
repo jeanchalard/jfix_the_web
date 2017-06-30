@@ -9,9 +9,12 @@ html body {
     background-color : #303030 !important;
 }
 /* header */
-#yt-masthead-container, #masthead-search-term, #search-btn, #upload-btn {
+#yt-masthead-container, #masthead-search-term, #masthead-appbar, #search-btn, #upload-btn {
     background-color : black !important;
     color : white !important;
+}
+a[href*="trending"] {
+    display : none !important;
 }
 table {
     background-color : black !important;
