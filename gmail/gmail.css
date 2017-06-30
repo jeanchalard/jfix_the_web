@@ -1,6 +1,70 @@
-html {
+/* Loading screen */
+#loading {
   background-color : black !important;
 }
-body {
+.msg {
+  color : white !important;
+}
+
+/* Search box */
+div[gh="sb"] {
   background-color : black !important;
+  color : white !important;
+  border-bottom-color : #7f7f7f !important;
+  border-top-color : #7f7f7f !important;
+  border-left-color : #7f7f7f !important;
+  border-right-color : #7f7f7f !important;
+}
+input[name="q"] {
+  color : white !important;
+  -webKit-text-fill-color : white !important;
+}
+/* Search results */
+tbody[role="presentation"] {
+    -webkit-filter : invert(100%);
+}
+
+/* /\* Thread list *\/ */
+/* /\* Not used because of the availability of the "dark theme" *\/ */
+/* .yO { /\* Individual list item *\/ */
+/*     font-family : "Dejavu Sans"; */
+/*     background-color : rgba(12, 12, 12, 0.85) !important; */
+/*     color : white !important; */
+/* } */
+/* .xY { /\* Thread list separator *\/ */
+/*     border-bottom-color : #3f3f3f !important; */
+/* } */
+/* .aqw { /\* Currently hovered item *\/ */
+/*     background-color : rgba(48, 48, 48, 0.85) !important; */
+/* } */
+/* .aKS { /\* Action buttons on the right of the thread list *\/ */
+/*     -webkit-filter : invert(100%); */
+/* } */
+/* img[alt="Attachment"] { /\* Clipboard icon indicating attachment *\/ */
+/*     -webkit-filter : invert(100%); */
+/* } */
+
+
+
+/* Mail contents */
+div[role="main"] div.g {
+    -webkit-filter : invert(100%);
+}
+/* Deinvert avatars (img.ajn)
+   and image inside emails (ids starting with m_)
+   and attachment previews (img.aQG)
+   and attachment in full modal view (divs inside divs with role document),
+                                     (iframes referring to drive) */
+img.ajn, img[id|="m_"], img.aQG, div[role="document"]>div, iframe[id|="drive"] {
+    -webkit-filter : invert(100%);
+}
+/* Hide the column at the right of the screen which contains 0 useful info */
+td.y3 {
+    display : none !important;
+}
+
+
+/* Settings screen */
+div.nH div.nH div.r4 {
+    -webkit-filter : invert(100%);
 }

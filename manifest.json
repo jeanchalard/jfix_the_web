@@ -4,21 +4,20 @@
   "version" : "1.0",
   "description" : "Fixes various sites",
   "content_scripts" : [
-/*
-    {
-      "matches" : ["http://news.exchristian.net/*"],
-      "css" : ["tmp.css"]
-    },
-*/
     {
       "matches" : ["http://www.sluggy.com/comics/*"],
       "css" : ["sluggy/sluggy.css"]
     },
     {
       "matches" : ["https://mail.google.com/*"],
-      "css" : ["gmail/gmail.css"],
-      "js" : ["gmail/gmail.js"],
-      "run_at" : "document_start"
+      "css" : ["gmail/gmail.css"]
+//      "js" : ["gmail/gmail.js"],
+//      "run_at" : "document_start"
+    },
+    {
+      "matches" : ["https://hangouts.google.com/webchat/*", "https://apis.google.com/*/hovercard*"],
+      "css" : ["gmail/chat.css"],
+      "all_frames" : true
     },
     {
       "matches" : ["http://minecraft.gamepedia.com/*"],

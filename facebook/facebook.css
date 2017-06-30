@@ -8,13 +8,13 @@ html body {
     background-color : #272727 !important;
 }
 /* Header */
-div[role="search"] {
+div[role="search"], div[role="tab"] {
     background-color : #000000 !important;
 }
 div[role="search"] form button {
     background-color : #000000 !important;
 }
-.uiContextualLayer div {
+.uiContextualLayer div, ._3ubp, ._3ubp > span, ._4-u8, ._57d8, ._sg1 {
     background-color : black !important;
     border-color : #404040 !important;
     color : white !important;
@@ -32,12 +32,25 @@ div[role="search"] form button {
 }
 /* Menu on the left */
 .fbxWelcomeBox a, .fbxWelcomeBoxSmall a,
-.navHeader, .sectionDragHandle, .subitem, ._bui .subitem, span, .imgWrap, .linkWrap
+.navHeader, .sectionDragHandle, .subitem, ._bui .subitem, span, .imgWrap, .linkWrap,
 #pinnedNav, #groupsNav {
     color : #C0C0C0 !important;
 }
+._50f3 {
+    color : #C0C0C0 !important;
+}
+._5afe::after {
+    background-color : #000000 !important;
+    border : 1px solid #303030 !important;
+}
 .fbxWelcomeBoxRow:hover, .fbxWelcomeBoxSmallRow:hover, .sortableItem:hover, ._5afe:hover {
     background-color : #404040 !important;
+}
+._2jq5, ._26tg {
+    border-top-color : #303030 !important;
+    border-bottom-color : #303030 !important;
+    border-left-color : #303030 !important;
+    border-right-color : #303030 !important;
 }
 /* chat list */
 #u_0_s { /* right bar while loading */
@@ -215,5 +228,25 @@ a[role="button"] {
 /* Photo comments */
 .photoUfiContainer div {
     background-color : black !important;
+    color : white !important;
+}
+
+/* Details page headers */
+.fbTimelineSection, .fbTimelineTopSection {
+    background-color : #303030 !important;
+    color : white !important;
+}
+.back, .uiButtonGroup {
+    background-color : black !important;
+}
+a[data-tab-key] {
+    color : white !important;
+}
+
+/* Details page */
+._3cz, #pagelet_timeline_medley_photos {
+    background-color : #101010 !important;
+}
+._3c- a {
     color : white !important;
 }

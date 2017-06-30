@@ -1,0 +1,122 @@
+/* Chat list */
+/* Remove huge-ass paddings and counterproductive separators in
+   header (with own face) (.jr) and between list groups (active vs
+   inactive) (div[role="group"])
+   .azewN is an additional separator between header and list */
+.jr, div[role="group"], .azewN {
+    padding : 0px !important;
+    padding-top : 0px !important;
+    padding-bottom : 0px !important;
+    border-top-width : 0px !important;
+    border-bottom-width : 0px !important;
+}
+button[title*="conversation"] { /* Plus button is disgraceful in white */
+    -webkit-filter : invert(100%);
+}
+/* Hover over individual chat contacts, nicer than in almost solid dark grey */
+.HfhnEf:hover {
+    background-color : rgba(255, 255, 255, 0.30) !important;
+}
+/* Contact card. Invert it, then invert the avatar. */
+div.o-ms-fk, img[alt*="profile photo"] {
+    -webkit-filter : invert(100%);
+}
+
+/* Chat window */
+/* Remove the large and useless header
+   Change this if ever need to setup a chat (re-enable history or so)
+   Also remove the sticker palette in emoji palette */
+div.eu, div[role="tablist"] {
+    display : none !important;
+}
+/* Dark grey background for the dialog */
+div[id*=".bg"] {
+    background : rgb(48, 48, 48);
+    color : rgb(240, 240, 240) !important;
+}
+/* My lines, real thing */
+.pj .JL {
+    background-color : rgba(0, 0, 0, 0) !important;
+    color : rgb(200, 200, 255) !important;
+    margin-bottom : 2px !important;
+    font-size : 12px !important;
+}
+/* Their lines */
+.Sn .JL {
+    background-color : rgba(0, 0, 0, 0) !important;
+    color : white !important;
+    margin-bottom : 2px !important;
+    font-size :12px !important;
+    -border-bottom-right-radius
+}
+/* Links inside text */
+.pj .JL a, .SN .JL a {
+    color : rgb(150, 150, 255) !important;
+}
+/* Outer frame for my balloons */
+.pj .KRQuhe {
+    background-color : rgba(0, 0, 32, 0.3) !important;
+    border-top-left-radius : 5px !important;
+    border-top-right-radius : 5px !important;
+}
+/* Outer frame for their balloons */
+.Sn .KRQuhe {
+    background-color : rgba(0, 32, 0, 0.3) !important;
+    border-top-left-radius : 5px !important;
+    border-top-right-radius : 5px !important;
+}
+/* Reduce margin between lines */
+.Mu {
+    margin-bottom : 2px !important;
+    font-size : 12px !important;
+}
+/* Stop aligning own lines to the right asshole */
+.pj>.Tn, .pj>.Tn>.KL {
+    float : none !important;
+}
+/* Hide the silly ballon tails */
+.KL>.ci {
+    display : none;
+}
+/* Timestamps in white and without big ass padding */
+.TlvAYc {
+    padding : none !important;
+    padding-top : none !important;
+    padding-bottom : none !important;
+    color : rgb(200, 200, 200) !important;
+}
+/* Remove useless padding between messages */
+.PD {
+    padding : 0px !important;
+}
+/* More useless padding between and at sides of messages */
+.tk {
+    padding-left : 16px !important;
+    padding-right : 0px !important;
+    padding-top : 0px !important;
+    padding-bottom : 0px !important;
+}
+/* Place avatar 2nd party much closer to their message */
+.Up.pC {
+    left : -12px !important;
+}
+/* Reduce the ridiculously unreasonable tallness of the bar showing
+   up to where the other party has read */
+.kT {
+    height : 24px !important;
+}
+/* Reduce the idioticly huge avatars
+   .Yf is all avatars, .WaHFTd is the icon showing what device the other party is using */
+.Yf, .WaHFTd {
+    width : 12px !important;
+    height : 12px !important;
+}
+/* Input box */
+.My {
+    background-color : black !important;
+    color : white !important;
+}
+/* Icons on both sides of the input box (emoji & images) */
+button.uq {
+    -webkit-filter : invert(100%);
+}
