@@ -50,7 +50,7 @@ div[id*=".bg"] {
     -border-bottom-right-radius
 }
 /* Links inside text */
-.pj .JL a, .SN .JL a {
+.pj .JL a, .Sn .JL a {
     color : rgb(150, 150, 255) !important;
 }
 /* Outer frame for my balloons */

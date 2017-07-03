@@ -2,41 +2,39 @@
 .widget-pane-content {
     background-color : #0F0F0F !important;
 }
-#searchbox {
-    background-color : black !important;
-}
-#searchbox-hamburger, .suggest-icon-container, #searchbox-searchbutton {
+
+.omnibox-singlebox-root, div.suggestions {
     -webkit-filter : invert(100%);
-}
-.suggest-query, .suggest-bold {
-    color : white !important;
-}
-.sbib_b::after {
-    -webkit-filter : invert(100%);
-}
-.suggest:hover {
-    background-color : black !important;
 }
 
-/* Directions */
-.widget-pane-section-directions-trip div, .widget-pane-section-directions-trip span, .widget-pane-section-directions-trip,
-.section-directions-trip div, .section-directions-trip span, .section-directions-trip,
-h1 {
-    color : white !important;
-}
 /* Left panel */
-.section-info-text, .widget-pane-link, .section-subheader-large-text, .section-facts, .section-hotel-price-summary, .section-line-group-summary, .section-line-group-summary-lines, .section-transit-station-footer, .section-quote, .section-event-date, .section-event-name, .section-result-title, .section-result-hotel-price, .section-filters-filter-title, .section-hotel-prices-view-label, .section-hotel-prices-partner-nightly-rate-text, .wiget-pane-date-picker-label,
-h2 {
-    color : white !important;
+div[role="region"] {
+    -webkit-filter : invert(100%);
 }
-#loading-pane-div, .loading-pane, .widget-pane, .widget-pane-content-disabled, .widget-pane-offscreen,
-.section-filters {
-    background-color : black !important;
+/* Schedule explorer */
+#calendar {
+    -webkit-filter : invert(100%);
 }
-.screen-mode .section-result:hover, .screen-mode .section-result:focus {
-    background-color : #303030 !important;
+/* Date and time picker */
+.goog-menu, .goog-date-picker {
+    -webkit-filter : invert(100%);
 }
-/* Travel mode icon in results */
-div[role="img"] {
+/* Hamburger menu */
+div.widget-settings-pane {
+    -webkit-filter : invert(100%);
+}
+
+
+/* Deinvert stuff */
+div.section-hero-header /* Header for place with large image */
+,button.section-image-pack-button /* Photos of the place */
+,div.section-related-place-image /* Photos of related places */
+,.blue-button-text, .blue-link /* Action buttons in blue */
+,div.section-directions-action-icon /* Send to phone icon */
+,span.renderable-component /* Line names in directions */
+,div.section-directions-options /* Options in directions like when to leave */
+,div.section-header /* Header for the photo gallery */
+,div.gallery-image-highlight, div.gallery-image-high-res /* Photo gallery for a place */
+{
     -webkit-filter : invert(100%);
 }

@@ -41,11 +41,11 @@
       "css" : ["googlephotos/googlephotos.css"]
     },
     {
-      "matches" : ["https://www.google.co.jp/*"],
+      "matches" : ["https://www.google.co.jp/search*", "https://www.google.com/search*"],
       "css" : ["googlesearch/googlesearch.css"]
     },
     {
-      "matches" : ["https://www.google.co.jp/maps/*"],
+      "matches" : ["https://www.google.co.jp/maps/*", "https://www.google.com/maps/*"],
       "css" : ["maps/maps.css"]
     },
     {
