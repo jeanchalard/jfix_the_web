@@ -1,0 +1,19 @@
+/* This script intended to work on top of a
+   hackervision-reversed display */
+
+/* Document (typically photo/video) background */
+.a-b-L .a-b-jl {
+  background-color : rgba(255, 255, 255, 0.85) !important;
+}
+/* Document header */
+.a-b-K {
+  -webkit-filter: invert(100%);
+}
+
+/* Youtube player background */
+.html5-video-player {
+  background-color : #ffffff !important;
+}
+.ytp-gradient-bottom, .ytp-gradient-top, .ytp-chrome-bottom {
+  -webkit-filter: invert(100%);
+}

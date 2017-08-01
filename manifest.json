@@ -37,6 +37,11 @@
       "css" : ["youtube/youtube.css"]
     },
     {
+      "matches" : ["https://drive.google.com/*", "https://youtube.googleapis.com/embed/*"],
+      "css" : ["googledrive/googledrive.css"],
+      "all_frames" : true
+    },
+    {
       "matches" : ["https://photos.google.com/*"],
       "css" : ["googlephotos/googlephotos.css"]
     },
