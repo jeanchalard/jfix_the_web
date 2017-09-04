@@ -1,6 +1,9 @@
 ytd-compact-video-renderer, .ytp-suggestion-set, .ytp-ce-covering-overlay, .ytp-ce-element, .player-ads {
     display : none !important;
 }
+.video-ads {
+    display : none !important;
+}
 a[href*="trending"], a[href*="purchases"] {
     min-height : 0 !important;
     display : none !important;
