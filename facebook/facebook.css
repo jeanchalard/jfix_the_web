@@ -53,6 +53,9 @@ div[role="search"] form button {
     border-right-color : #303030 !important;
 }
 /* chat list */
+.fbChatOrderedList > div > div:nth-child(2) { /* fuck business recommendations */
+    display : none !important;
+}
 #u_0_s { /* right bar while loading */
     background-color : black !important;
     box-shadow : 1px 0 0 #101010 !important;
