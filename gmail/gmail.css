@@ -45,7 +45,11 @@ tbody[role="presentation"] {
 /* } */
 
 
-
+/* Sanity */
+body.aAU, .SE3XJf {
+    background-color : black !important;
+    background : black !important;
+}
 /* Mail contents */
 div[role="main"] div.g {
     -webkit-filter : invert(100%);
