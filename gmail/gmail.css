@@ -1,5 +1,5 @@
 /* Loading screen */
-#loading {
+#loading, .bt0 {
   background-color : black !important;
 }
 .msg {
