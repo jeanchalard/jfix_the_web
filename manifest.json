@@ -9,6 +9,10 @@
       "css" : ["sluggy/sluggy.css"]
     },
     {
+      "matches" : ["http://weathernews.jp/*"],
+      "css" : ["weathernews/weathernews.css"]
+    },
+    {
       "matches" : ["https://mail.google.com/*"],
       "css" : ["gmail/gmail.css"]
 //      "js" : ["gmail/gmail.js"],
