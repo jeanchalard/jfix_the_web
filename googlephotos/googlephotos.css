@@ -17,10 +17,10 @@ div[style*="position: absolute"] {
 c-wiz div {
     color: white !important;
 }
-c-wiz div[style*="height"] {
+div.Q77Pt, textarea, dl > div > div[role="button"] {
     background-color: #202020 !important;
     color: white !important;
 }
-a[title="Google apps"], svg.JUQOtc, .gb_qc {
+a[title="Google apps"], div > dt > svg, .gb_qc {
     -webkit-filter: invert(100%);
 }
