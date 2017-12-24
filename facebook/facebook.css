@@ -163,7 +163,7 @@ a[role="button"] {
     background-color : black !important;
     color : #CCCCCC !important;
 }
-.UFIList div, .UFIContainer, .UFIInputContainer div input {
+.UFIList div, .UFIContainer, .UFIInputContainer div input, .UFICommentActorAndBody {
     background-color : black !important;
     color : white !important;
     border-color : #404040 !important;
