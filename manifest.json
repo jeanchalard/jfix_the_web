@@ -60,6 +60,10 @@
     {
       "matches" : ["http://battlecats.spica-net.com/*"],
       "css" : ["battlecats/battlecats.css"]
+    },
+    {
+      "matches" : ["http://www.starpowercomic.com/*"],
+      "css" : ["starpower/starpower.css"]
     }
   ]
 }
