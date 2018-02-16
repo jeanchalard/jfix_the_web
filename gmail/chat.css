@@ -18,7 +18,7 @@ button[title*="conversation"] { /* Plus button is disgraceful in white */
     background-color : rgba(255, 255, 255, 0.30) !important;
 }
 /* Contact card. Invert it, then invert the avatar. */
-div.o-ms-fk, img[alt*="profile photo"] {
+div.o-ms-fk, img.Yub {
     -webkit-filter : invert(100%);
 }
 
