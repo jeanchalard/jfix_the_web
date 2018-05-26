@@ -1,26 +1,42 @@
 html body, c-wiz > c-wiz + div, div[jsshadow] {
-    background-color: #202020 !important;
-    color: white !important;
+    background-color : #202020 !important;
+    color : white !important;
 }
-div[role="menubar"] {
-    background-color: #303030 !important;
-    color: white !important;
+/* Small popups at the top right, and comment bubble at the bottom right */
+div.glKPyb, div.RunE3b {
+    background-color : black !important;
+    color : white !important;
+}
+/* Placeholders */
+a.p137Zd {
+    background-color : black !important;
+    color : white !important;
+}
+div[role="menubar"], c-wiz[role="main"] {
+    background-color : #303030 !important;
+    color : white !important;
 }
 c-wiz div[role="menubar"] div[data-initial-search-value] {
-    background-color: black !important;
-    color: white !important;
+    background-color : black !important;
+    color : white !important;
 }
-div[style*="position: absolute"] {
-    background-color: transparent !important;
-    background-image: none !important;
+/* Menu */
+div[style*="position: absolute"], content.z80M1 {
+    background-color : black !important;
+    background-image : none !important;
+    color : white !important;
+}
+/* Menu selected item (hover) */
+content.z80M1.FwR7Pc {
+    background-color : #303030 !important;
 }
 c-wiz div {
-    color: white !important;
+    color : white !important;
 }
 div.Q77Pt, textarea, dl > div > div[role="button"] {
-    background-color: #202020 !important;
-    color: white !important;
+    background-color : #202020 !important;
+    color : white !important;
 }
 a[title="Google apps"], div > dt > svg, .gb_qc {
-    -webkit-filter: invert(100%);
+    -webkit-filter : invert(100%);
 }
