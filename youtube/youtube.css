@@ -1,7 +1,7 @@
 ytd-compact-video-renderer, .ytp-suggestion-set, .ytp-ce-covering-overlay, .ytp-ce-element, .player-ads, ytp-ad-hover-text-button-renderer {
     display : none !important;
 }
-.video-ads .image-container, .video-ads .attribution-button, .video-ads .close-button, #AdSense {
+.adDisplay, .video-ads .image-container, .video-ads .attribution-button, .video-ads .close-button, #AdSense {
     display : none !important;
 }
 a[href*="trending"], a[href*="purchases"] {

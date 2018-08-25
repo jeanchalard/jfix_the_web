@@ -31,7 +31,7 @@ div.eu, div[role="tablist"] {
 }
 /* Dark grey background for the dialog */
 div[id*=".bg"] {
-    background : rgb(48, 48, 48);
+    background : rgb(48, 48, 48) !important;
     color : rgb(240, 240, 240) !important;
 }
 /* My lines, real thing */

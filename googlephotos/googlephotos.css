@@ -3,9 +3,18 @@ html body, c-wiz, c-wiz > c-wiz + div, div[jsshadow] {
     background-color : #202020 !important;
     color : white !important;
 }
-/* Barre de titre */
-div[role="menubar"] {
-    background-color : #404040 !important;
+/* Small popups at the top right, and comment bubble at the bottom right */
+div.glKPyb, div.RunE3b {
+    background-color : black !important;
+    color : white !important;
+}
+/* Placeholders */
+a.p137Zd {
+    background-color : black !important;
+    color : white !important;
+}
+div[role="menubar"], c-wiz[role="main"] {
+    background-color : #303030 !important;
     color : white !important;
 }
 /* Search box */
@@ -14,10 +23,14 @@ c-wiz div[role="menubar"] div[data-initial-search-value] {
     color : white !important;
 }
 /* Popup menu */
-div[style*="position: absolute"] {
+div[style*="position: absolute"], content.z80M1 {
     background-color : black !important;
     background-image : none !important;
     color : white !important;
+}
+/* Menu selected item (hover) */
+content.z80M1.FwR7Pc {
+    background-color : #303030 !important;
 }
 div[style*="position: absolute"] div {
     color : white !important;
@@ -48,4 +61,11 @@ div[role="button"].mUbCce, div[role="button"].JRtysb {
 /* Fond des curseurs pour les années */
 div.HrGXnb, div.KALWyc {
     background-color : rgba(0, 0, 0, 0.7);
+}
+div.Q77Pt, div.gN5aAe, textarea, dl > div > div[role="button"] {
+    background-color : #202020 !important;
+    color : white !important;
+}
+a[title="Google apps"], div > dt > svg, .gb_qc {
+    -webkit-filter : invert(100%);
 }
