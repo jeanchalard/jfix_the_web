@@ -1,26 +1,51 @@
-html body, c-wiz > c-wiz + div, div[jsshadow] {
-    background-color: #202020 !important;
-    color: white !important;
+/* Fond des images et couleur du texte des boutons */
+html body, c-wiz, c-wiz > c-wiz + div, div[jsshadow] {
+    background-color : #202020 !important;
+    color : white !important;
 }
+/* Barre de titre */
 div[role="menubar"] {
-    background-color: #303030 !important;
-    color: white !important;
+    background-color : #404040 !important;
+    color : white !important;
 }
+/* Search box */
 c-wiz div[role="menubar"] div[data-initial-search-value] {
-    background-color: black !important;
-    color: white !important;
+    background-color : black !important;
+    color : white !important;
 }
+/* Popup menu */
 div[style*="position: absolute"] {
-    background-color: transparent !important;
-    background-image: none !important;
+    background-color : black !important;
+    background-image : none !important;
+    color : white !important;
 }
+div[style*="position: absolute"] div {
+    color : white !important;
+}
+content.FwR7Pc {
+    background-color : #404040 !important;
+}
+/* ? */
 c-wiz div {
-    color: white !important;
+    color : white !important;
+}
+/* Label des popups */
+.UE0Rp {
+    color : white !important;
 }
 c-wiz div[style*="height"] {
-    background-color: #202020 !important;
-    color: white !important;
+    background-color : #202020 !important;
+    color : white !important;
 }
 a[title="Google apps"], svg.JUQOtc, .gb_qc {
-    -webkit-filter: invert(100%);
+    -webkit-filter : invert(100%);
+}
+/* Boutons dans la barre de menu */
+div[role="button"].mUbCce, div[role="button"].JRtysb {
+    background-color : #DFDFDF !important;
+    -webkit-filter : invert(100%);
+}
+/* Fond des curseurs pour les années */
+div.HrGXnb, div.KALWyc {
+    background-color : rgba(0, 0, 0, 0.7);
 }

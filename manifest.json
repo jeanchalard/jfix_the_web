@@ -9,6 +9,10 @@
       "css" : ["sluggy/sluggy.css"]
     },
     {
+      "matches" : ["https://readms.net/*"],
+      "css" : ["mangastream/mangastream.css"]
+    },
+    {
       "matches" : ["http://weathernews.jp/*"],
       "css" : ["weathernews/weathernews.css"]
     },
@@ -60,6 +64,10 @@
     {
       "matches" : ["http://battlecats.spica-net.com/*"],
       "css" : ["battlecats/battlecats.css"]
+    },
+    {
+      "matches" : ["http://www.750g.com/*"],
+      "css" : ["750g/750g.css"]
     },
     {
       "matches" : ["http://www.starpowercomic.com/*"],
