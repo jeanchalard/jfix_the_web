@@ -205,16 +205,33 @@ a[role="button"] {
 .titlebarText span {
     color : white !important;
 }
-.fbNubFlyoutTitlebar {
+.fbNubFlyoutTitlebar, ._69pt {
     background-color : #606060 !important;
 }
 .fbNubFlyoutFooter, .fbNubFlyoutBody {
     background-color : black !important;
     color : white !important;
 }
+._4poa ._4po6, ._4gd0, ._3hx- ._ua1, ._3hx- ._40qi, ._3hx- ._31o4, ._3hx- ._6vu5 ._5w-5, ._3hx- ._5wd4, #facebook ._3hx- ._li6a ._2kwv {
+    border-top-color : black !important;
+    border-bottom-color : black !important;
+    border-left-color : black !important;
+    border-right-color : black !important;
+    background-color : black !important;
+    color : white !important;
+}
+._3hx- ._1aa6:after {
+    border: 30px solid black !important;
+}
+._3hx- ._6vu5 ._4tdt, ._3hx- ._2cnu:only-of-type ._5wdf {
+    border-top-color : black !important;
+    border-bottom-color : black !important;
+    border-left-color : black !important;
+    border-right-color : black !important;
+}
 /* Their chat balloon */
 ._5w1r {
-    background-color : #202020 !important;
+    background-color : #404040 !important;
 }
 /* Our chat balloon */
 ._d97 {
