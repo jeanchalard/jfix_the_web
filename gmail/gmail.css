@@ -58,11 +58,12 @@ div[role="main"] div.apN {
     -webkit-filter : invert(100%);
 }
 /* Deinvert avatars (img.ajn)
-   and image inside emails (ids starting with m_)
+   and image inside emails (class="CToWUd", used to be ids starting with m_)
+   and attachment previews (img.aQG)
    and attachment previews (img.CToWUd)
    and attachment in full modal view (divs inside divs with role document),
                                      (iframes referring to drive) */
-img.ajn, img[id|="m_"], img.CToWUd, div[role="document"]>div, iframe[id|="drive"] {
+img.ajn, img[id|="m_"], img.CToWUd, img.aQG, div[role="document"]>div, iframe[id|="drive"] {
     -webkit-filter : invert(100%);
 }
 /* Hide the column at the right of the screen which contains 0 useful info */

@@ -17,6 +17,10 @@
       "css" : ["weathernews/weathernews.css"]
     },
     {
+      "matches" : ["https://screenshot.googleplex.com/*"],
+      "css" : ["snipit/snipit.css"]
+    },
+    {
       "matches" : ["https://mail.google.com/*"],
       "css" : ["gmail/gmail.css"]
 //      "js" : ["gmail/gmail.js"],
