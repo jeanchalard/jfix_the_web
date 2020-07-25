@@ -18,7 +18,7 @@ div[role="menubar"], c-wiz[role="main"] {
     color : white !important;
 }
 /* Search box */
-c-wiz div[role="menubar"] div[data-initial-search-value] {
+c-wiz div[role="menubar"] div[data-initial-search-value], div[role="navigation"] {
     background-color : black !important;
     color : white !important;
 }
@@ -28,9 +28,13 @@ div[style*="position: absolute"], content.z80M1 {
     background-image : none !important;
     color : white !important;
 }
-/* Menu selected item (hover) */
-content.z80M1.FwR7Pc {
+/* Menu selected item */
+.wDSX5e, .ixImeb {
     background-color : #303030 !important;
+}
+/* Menu selected item (hover) */
+.DOAbib:hover {
+    background-color : #404040 !important;
 }
 div[style*="position: absolute"] div {
     color : white !important;
@@ -59,7 +63,7 @@ div[role="button"].mUbCce, div[role="button"].JRtysb {
     -webkit-filter : invert(100%);
 }
 /* Fond des curseurs pour les années */
-div.HrGXnb, div.KALWyc {
+div.HrGXnb, div.KALWyc, div.bButFf {
     background-color : rgba(0, 0, 0, 0.7);
 }
 div.Q77Pt, div.gN5aAe, textarea, dl > div > div[role="button"] {
@@ -68,4 +72,12 @@ div.Q77Pt, div.gN5aAe, textarea, dl > div > div[role="button"] {
 }
 a[title="Google apps"], div > dt > svg, .gb_qc {
     -webkit-filter : invert(100%);
+}
+/* Pixel diviseur en haut */
+.QtDoYb {
+    border-bottom-color : black !important;
+}
+/* Large séparateur blanc disgrâcieux pendant le chargement */
+.O1Wnce {
+    border-top-color : rgba(0, 0, 0, 0) !important;
 }

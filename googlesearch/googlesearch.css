@@ -1,6 +1,8 @@
 /* General body fixes */
 html body, #hdtbSum, #slim_appbar, #topabar {
     background-color : black !important;
+    -webkit-user-select: text;
+    user-select: text;
 }
 a {
     color : #CCCCFF !important;
@@ -126,4 +128,11 @@ cite {
     color : white !important;
     background-color : #202020 !important;
     border-color : #404040 !important;
+}
+
+/* Lyrics */
+.ujudUb, .ruFjbf {
+    color : white !important;
+    -webkit-user-select : text;
+    user-select : text;
 }
