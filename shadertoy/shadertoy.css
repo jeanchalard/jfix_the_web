@@ -1,0 +1,10 @@
+body {
+    background-image : none !important;
+    background-color : #202020 !important;
+}
+#editorWrapper {
+    -webkit-filter : invert(100%) !important;
+}
+#comments {
+    display : none !important;
+}
