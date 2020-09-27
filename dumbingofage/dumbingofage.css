@@ -1,0 +1,13 @@
+html {
+  background-color : black !important;
+}
+body {
+  background-color : black !important;
+}
+#sidebar-aboveheader, #subcontent-wrapper {
+    display : none !important;
+}
+.vm-skin {
+    width : 0px !important;
+    height : 0px !important;
+}

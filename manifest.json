@@ -80,6 +80,10 @@
     {
       "matches" : ["https://www.shadertoy.com/*"],
       "css" : ["shadertoy/shadertoy.css"]
+    },
+    {
+      "matches" : ["https://www.dumbingofage.com/*"],
+      "css" : ["dumbingofage/dumbingofage.css"]
     }
   ]
 }
