@@ -97,6 +97,18 @@ cite {
 }
 .kp-blk {
     box-shadow : 0px 1px 4px 0px rgba(255, 255, 255, 0.2) !important;
+    background-color : #101010 !important;
+}
+.mQo3nc, .TVSh { /* respectively : dictionary tags and language selector in the definition box */
+    background-color : #202020 !important;
+    color : white !important;
+}
+.MXl0lf, .cfBJGe { /* "Other definitions" box */
+    background-color : #202020 !important;
+    color : white !important;
+}
+#tl_select { /* language selector color (has stupid !important tag directly on the class) */
+    color : white !important;
 }
 
 /* Image search */
