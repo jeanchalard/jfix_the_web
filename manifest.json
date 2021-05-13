@@ -84,6 +84,10 @@
     {
       "matches" : ["https://www.dumbingofage.com/*"],
       "css" : ["dumbingofage/dumbingofage.css"]
+    },
+    {
+      "matches" : ["https://parahumans.wordpress.com/*"],
+      "css" : ["worm/worm.css"]
     }
   ]
 }
