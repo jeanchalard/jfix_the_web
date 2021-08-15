@@ -1,0 +1,6 @@
+.top-ads-container, #mixed-content-footer, .wds-global-footer, #WikiaBar {
+    display : none !important;
+}
+.community-header-wrapper {
+    height: initial !important;
+}

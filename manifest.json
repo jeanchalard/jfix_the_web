@@ -88,6 +88,10 @@
     {
       "matches" : ["https://parahumans.wordpress.com/*"],
       "css" : ["worm/worm.css"]
+    },
+    {
+      "matches" : ["https://*.fandom.com/*"],
+      "css" : ["fandom/fandom.css"]
     }
   ]
 }
