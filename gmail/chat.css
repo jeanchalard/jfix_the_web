@@ -22,18 +22,57 @@ div.o-ms-fk, img.Yub {
     -webkit-filter : invert(100%);
 }
 
+/* Sanity : background for big window */
+.Bl2pUd {
+    background-color : rgba(0, 0, 0, 1) !important;
+}
+
 /* Chat window */
-/* Remove the large and useless header
+/* On old chat, remove the large and useless header
    Change this if ever need to setup a chat (re-enable history or so)
    Also remove the sticker palette in emoji palette */
 div.eu, div[role="tablist"] {
     display : none !important;
 }
+/* On new chat, make the header smaller, as it's useful but too large.
+   Also make the name-bearing header much smaller as it's wastefully huge. */
+.tRuV8b div.pS5UB {
+    height : 16px; !important;
+    background-color : rgba(0, 0, 0, 1) !important;
+}
+.tRuV8b div.HrE5Tb {
+    height : 16px; !important;
+}
+div.vIO7af {
+    height : 32px; !important;
+}
+div.jO3HBb {
+    top : 32px !important;
+}
+
 /* Dark grey background for the dialog */
 div[id*=".bg"] {
     background : rgb(48, 48, 48) !important;
     color : rgb(240, 240, 240) !important;
 }
+/* On new chat, multiple elements combine for background and text of individual messages */
+.WQKmIb div.Bl2pUd, .GNlxbc, .cmEq8b .Zc1Emd, .XbbXmb.zzVqCe .nF6pT {
+    background : rgb(48, 48, 48) !important;
+    color : rgb(240, 240, 240) !important;
+    font-size : 13px !important;
+}
+.cmEq8b .Z4BnXb, .cmEq8b .Z4BnXb .njhDLd, .nzVtF {
+  display : none !important;
+}
+/* On new chat, big ass padding all around is annoying */
+.YJxKBc, .Hj5Fxb, .oGsu4, .tRuV8b .HTZBof {
+  margin-left : 0px !important;
+  margin-right : 0px !important;
+  padding-left : 0px !important;
+  padding-right : 0px !important;
+}
+
+
 /* My lines, real thing */
 .pj .JL {
     background-color : rgba(0, 0, 0, 0) !important;
@@ -79,11 +118,12 @@ div[id*=".bg"] {
     display : none;
 }
 /* Timestamps in white and without big ass padding */
-.TlvAYc {
+.TlvAYc, .FvYVyf {
     padding : none !important;
     padding-top : none !important;
     padding-bottom : none !important;
     color : rgb(200, 200, 200) !important;
+    font-size : 8px;
 }
 /* Remove useless padding between messages */
 .PD {
@@ -105,18 +145,29 @@ div[id*=".bg"] {
 .kT {
     height : 24px !important;
 }
+
 /* Reduce the idioticly huge avatars
    .Yf is all avatars, .WaHFTd is the icon showing what device the other party is using */
-.Yf, .WaHFTd {
+/* On new chat, avatars are .hy2WD, .HTZBof and .YQsadf are the containers */
+.Yf, .WaHFTd, .hy2WD, .HTZBof, .tRuV8b .YQsadf, .YQsadf {
     width : 12px !important;
     height : 12px !important;
+    min-width : 0px !important;
+    min-height : 0px !important;
 }
+
 /* Input box */
-.My {
+.My, .WQKmIb .byY7Yb, .BScnzc {
     background-color : black !important;
     color : white !important;
 }
+
 /* Icons on both sides of the input box (emoji & images) */
 button.uq {
     -webkit-filter : invert(100%);
+}
+
+/* Useless header in big screen mode */
+.UDyRYe {
+    display : none !important;
 }
