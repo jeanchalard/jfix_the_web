@@ -20,12 +20,14 @@
       "matches" : ["https://screenshot.googleplex.com/*"],
       "css" : ["snipit/snipit.css"]
     },
-    {
-      "matches" : ["https://mail.google.com/*"],
-      "css" : ["gmail/gmail.css"]
+// No longer needed since chrome has auto-dark mode
+//    {
+//      "matches" : ["https://mail.google.com/*"],
+//      "css" : ["gmail/gmail.css"]
+// Was disabled before
 //      "js" : ["gmail/gmail.js"],
 //      "run_at" : "document_start"
-    },
+//    },
     {
       "matches" : ["https://hangouts.google.com/webchat/*", "https://apis.google.com/*/hovercard*"],
       "css" : ["gmail/chat.css"],
