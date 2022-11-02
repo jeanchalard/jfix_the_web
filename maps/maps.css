@@ -1,16 +1,33 @@
 /* General body fixes */
-.widget-pane-content {
-    background-color : #0F0F0F !important;
-}
-
 .omnibox-singlebox-root, div.suggestions {
     -webkit-filter : invert(100%);
 }
+span, label, input, h1, h2, h3 {
+    color : white !important;
+}
+
+/* Directions */
+#omnibox-container, .widget-directions
+,.Zvyb8e-T3iPGc-omnibox
+,.xB1mrd-T3iPGc-iSfDt-n5AaSd div /* Distances and times */
+,.goog-menu-button-caption /* Combo box when to leave */
+{
+    background-color : rgba(32, 32, 32, 1.0) !important;
+    color : white !important;
+}
 
 /* Left panel */
-div[role="region"] {
+div[role="main"], .Yr7JMd-pane-content, .Yr7JMd-pane {
+    background-color : rgba(32, 32, 32, 1.0) !important;
+    color : white !important;
+}
+.QSFF4-text, .x3AX1-LfntMc-header-title-ij8cu-haAclf, .V4c1yf-RWgCYc-JNdkSc-HSrbLb {
+    color : white !important;
+}
+.section-action-chip-button {
     -webkit-filter : invert(100%);
 }
+
 /* Schedule explorer */
 #calendar {
     -webkit-filter : invert(100%);
@@ -19,11 +36,50 @@ div[role="region"] {
 .goog-menu, .goog-date-picker {
     -webkit-filter : invert(100%);
 }
+/* Icons */
+.Wnt0je-urwkYd-WAutxc-icon /* Transport modes icons */
+,.Zvyb8e-T3iPGc-icon /* Reverse button and other itinerary icons */
+,.YismEf-T3iPGc /* Close directions button */
+,.bSpgw-zuz9Sc /* Hamburger menu */
+,.xoLGzf-icon /* Hamburger menu, but when closed */
+,#searchbox-searchbutton /* Search button */
+,.xB1mrd-T3iPGc-iSfDt-urwkYd-WAutxc-icon /* Transport mode icons */
+{
+    -webkit-filter : invert(100%);
+}
+
+/* Categories */
+.tXNTee
+{
+    background-color : rgba(32, 32, 32, 1.0) !important;
+    color : white !important;
+}
+/* Categories icons */
+.cJC1zb-icon
+{
+    -webkit-filter : invert(100%);
+}
+
 /* Hamburger menu */
 div.widget-settings-pane {
     -webkit-filter : invert(100%);
 }
 
+/* Search box */
+#omnibox-singlebox
+,#searchbox
+,.DAdBuc
+{
+    background-color : rgba(32, 32, 32, 1.0) !important;
+    color : white !important;
+}
+
+/* Weather */
+.bNowYc-vJ7A6b-LtZq3b, .siAUzd-neVct
+{
+    background-color : rgba(32, 32, 32, 1.0) !important;
+    color : white !important;
+}
 
 /* Deinvert stuff */
 div.section-hero-header /* Header for place with large image */
@@ -31,7 +87,6 @@ div.section-hero-header /* Header for place with large image */
 ,div.section-related-place-image /* Photos of related places */
 ,.blue-button-text, .blue-link /* Action buttons in blue */
 ,div.section-directions-action-icon /* Send to phone icon */
-,span.renderable-component /* Line names in directions */
 ,div.section-directions-options /* Options in directions like when to leave */
 ,div.section-header /* Header for the photo gallery */
 ,div.gallery-image-highlight, div.gallery-image-high-res /* Photo gallery for a place */
