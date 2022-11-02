@@ -47,6 +47,10 @@
       "css" : ["facebook/facebook.css"]
     },
     {
+      "matches" : ["https://www.instagram.com/*"],
+      "css" : ["instagram/instagram.css"]
+    },
+    {
       "matches" : ["https://www.youtube.com/*"],
       "css" : ["youtube/youtube.css"]
     },

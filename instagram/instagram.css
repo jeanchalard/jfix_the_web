@@ -1,0 +1,4 @@
+/* air quotes "suggestions" lol */
+div ~ article, article ~ div {
+  filter : brightness(0);
+}
