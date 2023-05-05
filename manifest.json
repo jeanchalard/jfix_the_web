@@ -92,6 +92,10 @@
       "css" : ["dumbingofage/dumbingofage.css"]
     },
     {
+      "matches" : ["https://www.smbc-comics.com/*"],
+      "css" : ["smbc/smbc.css"]
+    },
+    {
       "matches" : ["https://parahumans.wordpress.com/*"],
       "css" : ["worm/worm.css"]
     },
