@@ -96,6 +96,10 @@
       "css" : ["smbc/smbc.css"]
     },
     {
+      "matches" : ["http://superredundant.com/*"],
+      "css" : ["losrh/losrh.css"]
+    },
+    {
       "matches" : ["https://parahumans.wordpress.com/*"],
       "css" : ["worm/worm.css"]
     },
