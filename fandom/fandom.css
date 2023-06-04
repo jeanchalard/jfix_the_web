@@ -1,6 +1,7 @@
-.top-ads-container, #mixed-content-footer, .wds-global-footer, #WikiaBar {
+.top-ads-container, #mixed-content-footer, .wds-global-footer, #WikiaBar, .page__right-rail, .side-bt-container, .notifications-placeholder, .page-footer, .bottom-ads-container {
     display : none !important;
+    visibility : hidden !important;
 }
 .community-header-wrapper {
-    height: initial !important;
+    height : initial !important;
 }
