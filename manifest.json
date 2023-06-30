@@ -9,10 +9,6 @@
       "css" : ["sluggy/sluggy.css"]
     },
     {
-      "matches" : ["https://readms.net/*"],
-      "css" : ["mangastream/mangastream.css"]
-    },
-    {
       "matches" : ["http://weathernews.jp/*"],
       "css" : ["weathernews/weathernews.css"]
     },
@@ -98,6 +94,10 @@
     {
       "matches" : ["http://superredundant.com/*"],
       "css" : ["losrh/losrh.css"]
+    },
+    {
+      "matches" : ["https://genshin-impact-map.appsample.com/*"],
+      "css" : ["genshinmap/genshinmap.css"]
     },
     {
       "matches" : ["https://parahumans.wordpress.com/*"],
