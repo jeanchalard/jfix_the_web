@@ -1,4 +1,4 @@
-.vm-skin-left-ads-container, .vm-skin-right-ads-container, #comicright, #logo, #boardleader, .mobilehide, .cc-commentheader, .cc-commentbody, #midleader {
+.vm-skin-left-ads-container, .vm-skin-right-ads-container, .vm-footer, #comicright, #logo, #boardleader, .mobilehide, .cc-commentheader, .cc-commentbody, #midleader {
     display : none !important;
     visibility : hidden !important;
     opacity : 0 !important;
