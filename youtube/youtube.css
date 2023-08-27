@@ -1,16 +1,20 @@
 ytd-compact-video-renderer, .ytp-suggestion-set, .ytp-ce-covering-overlay, .ytp-ce-element, .player-ads, ytp-ad-hover-text-button-renderer {
-    display : none !important;
+  display : none !important;
 }
 .adDisplay, .video-ads .image-container, .video-ads .attribution-button, .video-ads .close-button, #AdSense, #player-ads {
-    display : none !important;
+  display : none !important;
 }
 a[href*="trending"], a[href*="purchases"] {
-    min-height : 0 !important;
-    display : none !important;
+  min-height : 0 !important;
+  display : none !important;
 }
 ytd-guide-entry-renderer {
-    min-height : initial !important;
+  min-height : initial !important;
 }
 .ytp-ad-overlay-container {
-    display : none !important;
+  display : none !important;
+}
+/* Remove the "shorts" useless and annoying section */
+*[is-shorts] {
+  display : none !important;
 }
