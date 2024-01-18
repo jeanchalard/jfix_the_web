@@ -106,6 +106,18 @@
     {
       "matches" : ["https://*.fandom.com/*"],
       "css" : ["fandom/fandom.css"]
+    },
+    {
+      "matches" : ["https://*.wikipedia.org/*"],
+      "css" : ["wikipedia/wikipedia.css"]
+    },
+    {
+      "matches" : ["https://genshin-impact-map.appsample.com/*"],
+      "css" : ["genshin/genshin.css"]
+    },
+    {
+      "matches" : ["https://questionablecontent.net/*"],
+      "css" : ["questionablecontent/questionablecontent.css"]
     }
   ]
 }

@@ -1,0 +1,6 @@
+.GoogleCreativeContainerClass, #ad-container, .small-2, center, #newspost+div, .adsbygoogle {
+  max-width : 1px; !important;
+  max-height : 1px; !important;
+  height : 1px; !important;
+  overflow : hidden;
+}
