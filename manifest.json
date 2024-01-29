@@ -112,6 +112,10 @@
       "css" : ["wikipedia/wikipedia.css"]
     },
     {
+      "matches" : ["https://www.dailymotion.com/*"],
+      "css" : ["dailymotion/dailymotion.css"]
+    },
+    {
       "matches" : ["https://genshin-impact-map.appsample.com/*"],
       "css" : ["genshin/genshin.css"]
     },
