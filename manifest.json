@@ -116,6 +116,10 @@
       "css" : ["genshin/genshin.css"]
     },
     {
+      "matches" : ["https://www.skyscanner.jp/*", "https://www.skyscanner.fr/*", "https://www.skyscanner.com/*"],
+      "css" : ["skyscanner/skyscanner.css"]
+    },
+    {
       "matches" : ["https://questionablecontent.net/*"],
       "css" : ["questionablecontent/questionablecontent.css"]
     }

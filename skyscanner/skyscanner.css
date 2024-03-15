@@ -1,0 +1,6 @@
+[class^="FlightsResults"] > [class] {
+  display : none !important;
+}
+aside {
+  display : none !important;
+}
