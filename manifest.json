@@ -124,6 +124,11 @@
       "css" : ["lemonde/lemonde.css"]
     },
     {
+      "matches" : ["https://www.marmiton.org/*"],
+      "js" : ["marmiton/marmiton.js"], // assholes use javascript to tack an !important CSS on the relevant node, can't do anything with the stylesheet
+      "css" : ["marmiton/marmiton.css"]
+    },
+    {
       "matches" : ["https://questionablecontent.net/*"],
       "css" : ["questionablecontent/questionablecontent.css"]
     }
