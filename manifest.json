@@ -120,6 +120,10 @@
       "css" : ["skyscanner/skyscanner.css"]
     },
     {
+      "matches" : ["http://www.analysebrassens.com/*"],
+      "css" : ["analysebrassens/analysebrassens.css"]
+    },
+    {
       "matches" : ["https://www.lemonde.fr/*"],
       "css" : ["lemonde/lemonde.css"]
     },
