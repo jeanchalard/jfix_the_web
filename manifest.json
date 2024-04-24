@@ -9,6 +9,10 @@
       "css" : ["sluggy/sluggy.css"]
     },
     {
+      "matches" : ["https://discord.com/*"],
+      "css" : ["discord/discord.css"]
+    },
+    {
       "matches" : ["http://weathernews.jp/*"],
       "css" : ["weathernews/weathernews.css"]
     },
