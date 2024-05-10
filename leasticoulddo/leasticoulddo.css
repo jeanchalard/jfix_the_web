@@ -1,0 +1,5 @@
+.is-docked, iframe, .widget-loaded {
+  display : none !important;
+  transform : scale(0) !important;
+  max-height : 0px !important;
+}

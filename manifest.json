@@ -141,6 +141,10 @@
       "css" : ["marmiton/marmiton.css"]
     },
     {
+      "matches" : ["https://leasticoulddo.com/*"],
+      "css" : ["leasticoulddo/leasticoulddo.css"]
+    },
+    {
       "matches" : ["https://questionablecontent.net/*"],
       "css" : ["questionablecontent/questionablecontent.css"]
     }
