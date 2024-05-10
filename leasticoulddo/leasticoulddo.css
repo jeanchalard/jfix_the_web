@@ -1,4 +1,4 @@
-.is-docked, iframe, .widget-loaded {
+.is-docked, iframe, .widget-loaded, .comic-ad-leader-wrap {
   display : none !important;
   transform : scale(0) !important;
   max-height : 0px !important;
