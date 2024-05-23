@@ -1,0 +1,6 @@
+#appconsent, .fig-consent-banner {
+  display : none !important;
+}
+body.appconsent_noscroll {
+  overflow : scroll !important;
+}

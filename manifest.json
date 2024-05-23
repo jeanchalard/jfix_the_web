@@ -132,6 +132,10 @@
       "css" : ["lemonde/lemonde.css"]
     },
     {
+      "matches" : ["https://www.lefigaro.fr/*"],
+      "css" : ["figaro/figaro.css"]
+    },
+    {
       "matches" : ["https://www.liberation.fr/*"],
       "css" : ["liberation/liberation.css"]
     },
