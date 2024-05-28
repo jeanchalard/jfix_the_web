@@ -128,6 +128,10 @@
       "css" : ["analysebrassens/analysebrassens.css"]
     },
     {
+      "matches" : ["https://*.stackexchange.com/*", "https://wiki.ubuntu.com/*"],
+      "css" : ["stackexchange/stackexchange.css"]
+    },
+    {
       "matches" : ["https://www.lemonde.fr/*"],
       "css" : ["lemonde/lemonde.css"]
     },
