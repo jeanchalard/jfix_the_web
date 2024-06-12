@@ -1,4 +1,4 @@
-.top-ads-container, #mixed-content-footer, .wds-global-footer, #WikiaBar, .page__right-rail, .side-bt-container, .notifications-placeholder, .page-footer, .bottom-ads-container, .gpt-ad, .ad-slot-placeholder, .incontent-leaderboard {
+div.top-ads-container, .top-ads-container, #mixed-content-footer, .wds-global-footer, #WikiaBar, .page__right-rail, .side-bt-container, .notifications-placeholder, .page-footer, .bottom-ads-container, .gpt-ad, .ad-slot-placeholder, .incontent-leaderboard {
   display : none !important;
   visibility : hidden !important;
   height : 0px !important;
@@ -8,3 +8,4 @@
 .community-header-wrapper {
   height : initial !important;
 }
+

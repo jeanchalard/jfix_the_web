@@ -1,7 +1,10 @@
 #didomi-host {
   display : none !important;
 }
-body.didomi-popup-open body.body-domuser-fr {
+body.didomi-popup-open {
+  overflow : scroll !important;
+}
+body.body-domuser-fr {
   overflow : scroll !important;
   overflow-x : scroll !important;
   overflow-y : scroll !important;

@@ -1,6 +1,6 @@
-aside, footer, .gdpr-lmd-wall, .lmd-banners, .js-lmd-banners, .paywall, .js-message-register, #banniere_haute, .meta__social {
+aside, footer, .gdpr-lmd-wall, .lmd-banners, .js-lmd-banners, .paywall, .js-message-register, #banniere_haute, .meta__social, .dfp__container {
   display : none !important;
 }
-body.popin-gdpr-no-scroll, html.popin-gdpr-no-scroll {
+body.popin-gdpr-no-scroll, html.popin-gdpr-no-scroll, section.main--free, section.article--restricted {
   overflow : scroll !important;
 }

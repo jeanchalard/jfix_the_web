@@ -4,6 +4,11 @@
   "version" : "1.0",
   "description" : "Fixes various sites",
   "content_scripts" : [
+    { // Websites using the didomi sdk
+      "matches" : ["https://*/*"],
+      "css" : ["didomi/didomi.css"],
+      "js" : ["didomi/didomi.js"]
+    },
     {
       "matches" : ["http://www.sluggy.com/comics/*"],
       "css" : ["sluggy/sluggy.css"]
@@ -144,9 +149,8 @@
       "css" : ["liberation/liberation.css"]
     },
     {
-      "matches" : ["https://www.marmiton.org/*"],
-      "js" : ["marmiton/marmiton.js"], // assholes use javascript to tack an !important CSS on the relevant node, can't do anything with the stylesheet
-      "css" : ["marmiton/marmiton.css"]
+      "matches" : ["https://www.cuisineaz.com/*"],
+      "css" : ["cuisineaz/cuisineaz.css"]
     },
     {
       "matches" : ["https://leasticoulddo.com/*"],

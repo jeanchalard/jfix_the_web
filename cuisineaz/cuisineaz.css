@@ -1,0 +1,7 @@
+div[id*=sp_message] {
+  display : none !important;
+  height : 0px !important;
+}
+#aside-ads, .cazAd, #divSideNews, #bottomArticle, #comments, .banniere-haute-wrapper, .recipe_video-wrapper {
+  display : none !important;
+}
