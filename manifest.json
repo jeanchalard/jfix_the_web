@@ -149,6 +149,10 @@
       "css" : ["liberation/liberation.css"]
     },
     {
+      "matches" : ["https://www.cuisineactuelle.fr/*"],
+      "css" : ["cuisineactuelle/cuisineactuelle.css"]
+    },
+    {
       "matches" : ["https://www.cuisineaz.com/*"],
       "css" : ["cuisineaz/cuisineaz.css"]
     },

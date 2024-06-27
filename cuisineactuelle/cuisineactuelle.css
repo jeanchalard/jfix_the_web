@@ -1,0 +1,4 @@
+div[id*=sp_message], .ad, .recipe-stickers, .leadIAmage, .isVideo, .recipe-reviewInfo, .subImageBar, .recipe-subimagebar, .sidebarContainer-right, .socialBar, .recipeReviews, .sponsoredPrisma, .podcast, .articleList, .recipe-block, .serviceBar, .stickyBanner, .faceted-search-wrapper, .header, #recipeReviewer, .reviewer, .preFooter, .top-footer, .prismashopFooter, .footer {
+  display : none !important;
+  height : 0px !important;
+}
