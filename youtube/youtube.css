@@ -8,6 +8,10 @@ a[href*="trending"], a[href*="purchases"] {
   min-height : 0 !important;
   display : none !important;
 }
+.ytd-ad-slot-renderer, .ytd-in-feed-ad-layout-renderer, ytd-ad-slot-renderer {
+  min-height : 0 !important;
+  display : none !important;
+}
 ytd-guide-entry-renderer {
   min-height : initial !important;
 }
