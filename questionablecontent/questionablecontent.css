@@ -1,6 +1,23 @@
-.GoogleCreativeContainerClass, #ad-container, .small-2, center, #newspost+div, .adsbygoogle {
-  max-width : 1px; !important;
-  max-height : 1px; !important;
-  height : 1px; !important;
+#comicnav {
+  width : 800px;
+  max-width : 1000px;
+}
+.GoogleCreativeContainerClass, #ad-container, center, #newspost+div, .adsbygoogle {
+  max-width : 1px !important;
+  max-height : 1px !important;
+  height : 1px !important;
   overflow : hidden;
+}
+iframe[scrolling="no"] {
+  max-width : 800px !important;
+  max-height : 1px !important;
+}
+.medium-expand {
+  max-width : 800px !important;
+}
+.small-2.medium-expand.column {
+  display : none !important;
+}
+row {
+  width : initial !important;
 }
