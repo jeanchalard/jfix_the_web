@@ -22,3 +22,7 @@ ytd-guide-entry-renderer {
 *[is-shorts] {
   display : none !important;
 }
+/* Useless panel reducing the size of video */
+#panels-full-bleed-container {
+  display : none !important;
+}
