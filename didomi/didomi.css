@@ -1,8 +1,9 @@
 #didomi-host {
   display : none !important;
 }
-body.didomi-popup-open {
+body.didomi-popup-open, body.didomi-popup-open > *:not(#didomi-host) {
   overflow : scroll !important;
+  filter : none !important;
 }
 body.body-domuser-fr {
   overflow : scroll !important;
