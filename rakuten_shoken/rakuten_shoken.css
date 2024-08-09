@@ -1,0 +1,8 @@
+table.tbl-data-padding3 td.cell-06, table.tbl-data-padding3 td.cell-06-top, table.tbl-data-padding3 td.cell-05 {
+  background : none !important;
+  background-color : black !important;
+}
+table.tbl-data-padding3 th.cell-01-top, table.tbl-data-padding3 th.cell-01-top02, table.tbl-data-padding3 th.cell-01 {
+  background : none !important;
+  background-color : #00007F !important;
+}

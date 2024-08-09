@@ -129,7 +129,7 @@
       "css" : ["skyscanner/skyscanner.css"]
     },
     {
-      "matches" : ["http://www.analysebrassens.com/*"],
+      "matches" : ["https://analysebrassens.com/*", "https://www.analysebrassens.com/*", "http://analysebrassens.com/*", "http://www.analysebrassens.com/*"],
       "css" : ["analysebrassens/analysebrassens.css"]
     },
     {
@@ -164,6 +164,10 @@
       "matches" : ["https://www.larousse.fr/*"],
       "js" : ["larousse/larousse.js"],
       "css" : ["larousse/larousse.css"]
+    },
+    {
+      "matches" : ["https://member.rakuten-sec.co.jp/*"],
+      "css" : ["rakuten_shoken/rakuten_shoken.css"]
     },
     {
       "matches" : ["https://questionablecontent.net/*"],
