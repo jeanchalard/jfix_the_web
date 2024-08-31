@@ -1,3 +1,9 @@
-#tyche_trendi_video_container, #sidebar-header, #sidebar-left, #sidebar-right, #sidebar-under-blog, div.entry, #comment-wrapper {
-    display : none !important;
+#tyche_trendi_video_container {
+  clip-path : circle(0);
+}
+iframe {
+  display : none !important;
+}
+#header, #subcontent-wrapper {
+  display : none !important;
 }

@@ -7,7 +7,7 @@
 }
 /* Document header */
 .a-b-K {
-  -webkit-filter: invert(100%);
+  -webkit-filter : invert(100%);
 }
 
 /* Youtube player background */
@@ -15,5 +15,5 @@
   background-color : #ffffff !important;
 }
 .ytp-gradient-bottom, .ytp-gradient-top, .ytp-chrome-bottom {
-  -webkit-filter: invert(100%);
+  -webkit-filter : invert(100%);
 }

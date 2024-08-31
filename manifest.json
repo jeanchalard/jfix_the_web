@@ -65,6 +65,10 @@
       "all_frames" : true
     },
     {
+      "matches" : ["https://docs.google.com/spreadsheets/*"],
+      "css" : ["googlesheets/googlesheets.css"]
+    },
+    {
       "matches" : ["https://photos.google.com/*"],
       "css" : ["googlephotos/googlephotos.css"]
     },
@@ -168,6 +172,10 @@
     {
       "matches" : ["https://member.rakuten-sec.co.jp/*"],
       "css" : ["rakuten_shoken/rakuten_shoken.css"]
+    },
+    {
+      "matches" : ["https://superredundant.com/*"],
+      "css" : ["losrh/losrh.css"]
     },
     {
       "matches" : ["https://questionablecontent.net/*"],
