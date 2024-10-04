@@ -178,6 +178,10 @@
       "css" : ["losrh/losrh.css"]
     },
     {
+      "matches" : ["https://www.jalan.net/*", "http://www.jalan.net/*"],
+      "css" : ["jalan/jalan.css"]
+    },
+    {
       "matches" : ["https://questionablecontent.net/*"],
       "css" : ["questionablecontent/questionablecontent.css"]
     }

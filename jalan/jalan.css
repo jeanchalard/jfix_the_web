@@ -1,0 +1,8 @@
+/* Removes all search results (ad and non-ad), so see below */
+.p-searchResults {
+  display : none !important;
+}
+/* Override the above for non-ad */
+#jsiInnList {
+  display : block !important;
+}
