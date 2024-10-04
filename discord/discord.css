@@ -1,3 +1,8 @@
-span[class*='item_'] {
+/* Indicator of which server is currently shown, on the left side */
+span[class^='item_'] {
   background-color : #7F7F7F !important;
+}
+/* Remove the discovery icon which is essentially an ad */
+div[class^="footer_"] {
+  display : none !important;
 }
