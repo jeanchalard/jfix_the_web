@@ -170,6 +170,10 @@
       "css" : ["larousse/larousse.css"]
     },
     {
+      "matches" : ["https://trackings.post.japanpost.jp/*"],
+      "css" : ["japanpost/japanpost.css"]
+    },
+    {
       "matches" : ["https://member.rakuten-sec.co.jp/*"],
       "css" : ["rakuten_shoken/rakuten_shoken.css"]
     },
