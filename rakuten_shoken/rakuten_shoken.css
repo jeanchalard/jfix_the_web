@@ -1,8 +1,8 @@
-table.tbl-data-padding3 td.cell-06, table.tbl-data-padding3 td.cell-06-top, table.tbl-data-padding3 td.cell-05 {
+table.tbl-data-padding3 td.cell-06, table.tbl-data-padding3 td.cell-06-top, table.tbl-data-padding3 td.cell-05, .cell-05, .cell-06 {
   background : none !important;
   background-color : black !important;
 }
-table.tbl-data-padding3 th.cell-01-top, table.tbl-data-padding3 th.cell-01-top02, table.tbl-data-padding3 th.cell-01 {
+table.tbl-data-padding3 th.cell-01-top, table.tbl-data-padding3 th.cell-01-top02, table.tbl-data-padding3 th.cell-01, .cell-01, .cell-03 {
   background : none !important;
   background-color : #00007F !important;
 }
