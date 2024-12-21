@@ -182,6 +182,13 @@
       "css" : ["losrh/losrh.css"]
     },
     {
+      "matches" : ["https://no1.nipponrentacar.co.jp/*"],
+      "css" : ["nipponrentacar/nipponrentacar.css"],
+      "all_frames" : true,
+      "match_about_blank" : true,
+      "match_origin_as_fallback" : true
+    },
+    {
       "matches" : ["https://www.jalan.net/*", "http://www.jalan.net/*"],
       "css" : ["jalan/jalan.css"]
     },
