@@ -189,6 +189,10 @@
       "match_origin_as_fallback" : true
     },
     {
+      "matches" : ["https://www.reddit.com/*"],
+      "css" : ["reddit/reddit.css"]
+    },
+    {
       "matches" : ["https://www.jalan.net/*", "http://www.jalan.net/*"],
       "css" : ["jalan/jalan.css"]
     },

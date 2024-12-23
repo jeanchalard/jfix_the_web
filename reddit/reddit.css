@@ -1,0 +1,8 @@
+/* Ad in the middle of the stream */
+shreddit-comments-page-ad, *[ad-type] {
+  display : none !important;
+}
+/* I never want to comment, remove the "add comment" banner */
+comment-body-header {
+  display : none !important;
+}
