@@ -1,0 +1,24 @@
+div#sp_message_container_1234685 {
+  display : none !important;
+  max-width : 0px !important;
+  max-height : px !important;
+  position : initial !important;
+}
+html > body[data-template] {
+  overflow : scroll !important;
+  position : initial !important;
+  margin-top : initial !important;
+}
+/*
+  ads and coreads-wrapper pretty self-explanatory
+  articleMedia is a crappy video ad
+  article* are useless crap taking up space
+  audion_placeholder_player and textToSpeech some audio player just taking up black space on top of the article
+  .grid-content are standard containers, first one contains the article, subsequent ones contain links to other articles
+*/
+.ads, .coreads-wrapper, .articleMedia, .articleHeader-box, .articleTagList, .articleGoogleNews, .audion_placeholder_player, .articleContent-textToSpeech, .grid-content:not(:first-child) {
+  display : none !important;
+  max-width : 0px !important;
+  max-height : px !important;
+  position : initial !important;
+}

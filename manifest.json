@@ -189,6 +189,10 @@
       "match_origin_as_fallback" : true
     },
     {
+      "matches" : ["https://www.caminteresse.fr/*"],
+      "css" : ["caminteresse/caminteresse.css"]
+    },
+    {
       "matches" : ["https://www.reddit.com/*"],
       "css" : ["reddit/reddit.css"]
     },
