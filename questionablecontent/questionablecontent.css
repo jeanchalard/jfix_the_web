@@ -21,3 +21,8 @@ iframe[scrolling="no"] {
 row {
   width : initial !important;
 }
+#med_rect_btf, #pw-160x600_btf, .pw-tag {
+  display : none !important;
+  width : 0px !important;
+  height : 0px !important;
+}

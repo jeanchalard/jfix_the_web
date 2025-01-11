@@ -201,7 +201,7 @@
       "css" : ["jalan/jalan.css"]
     },
     {
-      "matches" : ["https://questionablecontent.net/*"],
+      "matches" : ["https://questionablecontent.net/*", "https://www.                                     questionablecontent.net/*"],
       "css" : ["questionablecontent/questionablecontent.css"]
     }
   ]
