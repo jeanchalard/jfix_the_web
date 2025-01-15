@@ -1,0 +1,5 @@
+body, body.under_layer, body.user_info_simple, body.user_info_bottom, body.user_info_mid, body.has_inquiry, body.service_flow, body.user_input, body.bottom, body.inner, body.frame_gray, body.frame_gray_bottom, body.user_info_option,
+div.under_layer, div.user_info_simple, div.user_info_bottom, div.user_info_mid, div.has_inquiry, div.service_flow, div.user_input, div.bottom, div.inner, div.frame_gray, div.frame_gray_bottom, div.user_info_option {
+  background : none !important;
+  background-color : black !important;
+}

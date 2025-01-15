@@ -174,8 +174,12 @@
       "css" : ["japanpost/japanpost.css"]
     },
     {
-      "matches" : ["https://member.rakuten-sec.co.jp/*"],
-      "css" : ["rakuten_shoken/rakuten_shoken.css"]
+      "matches" : ["https://fes.rakuten-bank.co.jp/*"],
+      "css" : ["rakuten_bank/rakuten_bank.css"]
+    },
+    {
+      "matches" : ["https://entry11.bk.mufg.jp/*", "https://directg.s.bk.mufg.jp/*"],
+      "css" : ["mitsubishi/mitsubishi.css"]
     },
     {
       "matches" : ["https://superredundant.com/*"],
