@@ -2,7 +2,32 @@
 span[class^='item_'] {
   background-color : #7F7F7F !important;
 }
-/* Remove the discovery icon which is essentially an ad */
-div[class^="footer_"] {
+/* Remove the discovery and download icons which are essentially ads */
+div[class^="listItem"]:has(div[aria-label*="Télécharger"]),
+div[class^="listItem"]:has(div[aria-label*="Découvrir"])
+{
+  display : none !important;
+}
+
+/* Remove the top bar which takes space and displays no useful information */
+div[class^="bar"]:has(div[class^="title"]) {
+  display : none !important;
+  height : 0px !important;
+}
+.visual-refresh {
+  --custom-app-top-bar-height : 0px !important;
+}
+
+/* Reduce the uselessly giant margin at the bottom */
+div[class^="channelTextArea"] {
+  margin-bottom : 10px !important;
+}
+
+/* Remove the useless "Events" and "boosts" items at the top of the channels */
+li > div[class^="containerDefault"] {
+  display : none !important;
+}
+/* ...and the additional useless vertical space */
+ul > div[style^="height"], div[class^="sectionDivider"] {
   display : none !important;
 }
