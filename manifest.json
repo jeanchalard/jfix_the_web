@@ -60,6 +60,10 @@
       "css" : ["youtube/youtube.css"]
     },
     {
+      "matches" : ["https://docs.google.com/*"],
+      "css" : ["googledocs/googledocs.css"]
+    },
+    {
       "matches" : ["https://drive.google.com/*", "https://youtube.googleapis.com/embed/*"],
       "css" : ["googledrive/googledrive.css"],
       "all_frames" : true

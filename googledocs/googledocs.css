@@ -1,0 +1,19 @@
+/* Document content
+ kix-page-paginated is the container for a google doc
+ waffle-grid-container is the container for spreadsheets ; it's a class while loading and an id after it's done loading
+ */
+.kix-canvas-tile-content {
+  -webkit-filter : invert(100%) hue-rotate(180deg) brightness(120%);
+}
+.kix-cursor {
+  -webkit-filter : invert(100%);
+}
+.docs-ui-hit-region-surface {
+  background-color : #202020;
+}
+g > path {
+  -webkit-filter : invert(100%);
+}
+* {
+  caret-color : #000000 !important;
+}
