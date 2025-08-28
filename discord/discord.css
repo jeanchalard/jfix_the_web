@@ -31,3 +31,8 @@ li > div[class^="containerDefault"] {
 ul > div[style^="height"], div[class^="sectionDivider"] {
   display : none !important;
 }
+
+/* Remove the useless icons at the right of the text box */
+div[aria-label*="cadeau"], div[aria-label*="GIF"], div[aria-label*="autocollant"], button[aria-label*="Applications"] {
+  display : none !important;
+}
