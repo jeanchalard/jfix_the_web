@@ -17,3 +17,12 @@ g > path {
 * {
   caret-color : #000000 !important;
 }
+
+/* Hide the annoying red bang on the avatar when google decides you "only" have 10 million years of storage left */
+.gb_Pa {
+  -webkit-clip-path : initial !important;
+  clip-path : initial !important;
+}
+.gb_R {
+  display : none !important;
+}
