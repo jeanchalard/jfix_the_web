@@ -3,8 +3,8 @@ span[class^='item_'] {
   background-color : #7F7F7F !important;
 }
 /* Remove the discovery and download icons which are essentially ads */
-div[class^="listItem"]:has(div[aria-label*="Télécharger"]),
-div[class^="listItem"]:has(div[aria-label*="Découvrir"])
+div[class*="listItem"]:has(div[aria-label*="Télécharger"]),
+div[class*="listItem"]:has(div[aria-label*="Découvrir"])
 {
   display : none !important;
 }
@@ -24,7 +24,7 @@ div[class^="channelTextArea"] {
 }
 
 /* Remove the useless "Events" and "boosts" items at the top of the channels */
-li > div[class^="containerDefault"] {
+li > div[class*="containerDefault"] {
   display : none !important;
 }
 /* ...and the additional useless vertical space */
