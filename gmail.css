@@ -1,0 +1,21 @@
+/* Remove the ad for google one */
+span:has(> div > div[jsaction]) {
+  display : none !important;
+}
+
+/* Hide the "spaces" misfeature */
+div[data-section-type="2"],
+/* Hide the "applications" ad */
+div[data-section-type="9"] {
+  display : none !important;
+}
+
+/* Hide AI ad */
+div[jscontroller]:has(button[aria-label*="Gemini"]) {
+  display : none !important;
+}
+
+/* Re-invert the avatar, which chrome dark mode mistakenly inverts */
+a[href*="SignOutOptions"] {
+  -webkit-filter : invert(100%) hue-rotate(0.5turn) brightness(300%) contrast(75%);
+}
