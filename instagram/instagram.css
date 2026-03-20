@@ -2,3 +2,8 @@
 div ~ article, article ~ div {
   filter : brightness(0);
 }
+
+/* more "suggestions" in the stories block */
+li:has(> div.x1n2onr6:not([aria-label])) {
+  display : none !important;
+}
