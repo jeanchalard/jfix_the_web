@@ -214,6 +214,10 @@
     {
       "matches" : ["https://questionablecontent.net/*", "https://www.                                     questionablecontent.net/*"],
       "css" : ["questionablecontent/questionablecontent.css"]
+    },
+    {
+      "matches" : ["https://*.nenkin.go.jp/*"],
+      "css" : ["nenkin/nenkin.css"]
     }
   ]
 }
