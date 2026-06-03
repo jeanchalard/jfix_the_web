@@ -1,8 +1,7 @@
 /* Removes all search results (ad and non-ad), so see below */
-.p-searchResults {
+.p-prHeading {
   display : none !important;
 }
-/* Override the above for non-ad */
-#jsiInnList {
-  display : block !important;
+.p-prHeading + ul {
+  display : none !important;
 }
