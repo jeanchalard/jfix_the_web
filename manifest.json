@@ -15,7 +15,8 @@
     },
     {
       "matches" : ["https://discord.com/*"],
-      "css" : ["discord/discord.css"]
+      "css" : ["discord/discord.css"],
+      "js" : ["discord/discord.js"]
     },
     {
       "matches" : ["http://weathernews.jp/*"],

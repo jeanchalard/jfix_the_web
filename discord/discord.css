@@ -36,3 +36,10 @@ ul > div[style^="height"], div[class^="sectionDivider"] {
 div[aria-label*="cadeau"], div[aria-label*="GIF"], div[aria-label*="autocollant"], button[aria-label*="Applications"] {
   display : none !important;
 }
+
+/* Ads for games appearing at the top right ? */
+/* Not too sure, it had a button "didn't ask". If it pops again, activate this
+div:has(div:has(div[class*="startButton"])) {
+  display : none !important;
+}
+ */
