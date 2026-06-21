@@ -1,0 +1,16 @@
+/* The bar showing how many points you got by searching. Who cares ? 30 yen a month top, lol */
+.kuchisu-message-component, .kuchisuProgress {
+  display: none !important;
+}
+/* The お買い物 tab. */
+ul.pxYtze4zC9fUP4FieMbj > li:nth-child(2) {
+  display: none !important;
+}
+/* Useless icons to change the color of the search bar that take vertical space and have red flashy badges */
+.yamawake-container, .panda-switch-container, .gSvr6_0tXXVMNvodOZNu {
+  display: none !important;
+}
+/* Ad at the bottom right */
+.lCa1LSTg4xjDzMtdXxdN {
+  display: none !important;
+}
