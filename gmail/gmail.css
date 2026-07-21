@@ -20,7 +20,7 @@ div[data-title*="￥"] {
   display : none !important;
 }
 
-/* Re-invert the avatar, which chrome dark mode mistakenly inverts */
-a[href*="SignOutOptions"] {
-  -webkit-filter : invert(100%) hue-rotate(0.5turn) brightness(300%) contrast(75%);
+/* Remove the persistent ad for their paid storage */
+div.s1rbBe {
+  display : none !important;
 }
