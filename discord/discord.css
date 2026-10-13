@@ -37,6 +37,11 @@ div[aria-label*="cadeau"], div[aria-label*="autocollant"], button[aria-label*="A
   display : none !important;
 }
 
+/* Remove the ad banner at the bottom left */
+div[data-testid="quest-bar-container"] {
+  display : none !important;
+}
+
 /* Ads for games appearing at the top right ? */
 /* Not too sure, it had a button "didn't ask". If it pops again, activate this
 div:has(div:has(div[class*="startButton"])) {
