@@ -1,7 +1,12 @@
-/* Remove the ad for google one */
+/* Remove the ad for google one
+ * This was disabled as it started preventing image
+ * attachments from showing when clicked. The ad,
+ * on the other hand, can no longer be seen ; keep
+ * this for a while in case I missed it or it comes back.
 span:has(> div > div[jsaction]) {
   display : none !important;
 }
+*/
 
 /* Hide the "spaces" misfeature */
 div[data-section-type="2"],
