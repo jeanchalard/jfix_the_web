@@ -1,5 +1,5 @@
 /* Fond des images et couleur du texte des boutons */
-html body, c-wiz, c-wiz > c-wiz + div, div[jsshadow] {
+html body, c-wiz, c-wiz > c-wiz + div {
     background-color : #202020 !important;
     color : white !important;
 }
@@ -50,10 +50,7 @@ c-wiz div {
 .UE0Rp {
     color : white !important;
 }
-c-wiz div[style*="height"] {
-    background-color : #202020 !important;
-    color : white !important;
-}
+/* ? */
 a[title="Google apps"], svg.JUQOtc, .gb_qc {
     -webkit-filter : invert(100%);
 }
@@ -66,10 +63,12 @@ div[role="button"].mUbCce, div[role="button"].JRtysb {
 div.HrGXnb, div.KALWyc, div.bButFf {
     background-color : rgba(0, 0, 0, 0.7);
 }
+/* ? */
 div.Q77Pt, div.gN5aAe, textarea, dl > div > div[role="button"] {
     background-color : #202020 !important;
     color : white !important;
 }
+/* ? */
 a[title="Google apps"], div > dt > svg, .gb_qc {
     -webkit-filter : invert(100%);
 }
